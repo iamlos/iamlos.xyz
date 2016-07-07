@@ -59,7 +59,7 @@ module PageHelper
     if page_image
       page_image
     else
-      image_path("social/lacroixdesignco.jpg")
+      image_path("social/carloscashsocial.jpg")
     end
   end
 
