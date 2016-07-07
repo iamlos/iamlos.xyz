@@ -2,7 +2,7 @@
 title: "Setting Goals For Your Web Project"
 tagline: "How to make your next web project successful."
 date: 2013-04-15 12:00
-author: "James LaCroix"
+author: "Carlos Cash"
 published: true
 image: "goals.jpg"
 inline_header: true

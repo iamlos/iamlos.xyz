@@ -92,7 +92,7 @@ $nav-delay-delta: 0.075;
   .line-3 { top: 65%; }
 
   &:hover .line {
-    background: $pink;
+    background: $orange;
   }
 
   .csstransforms3d & {
@@ -203,8 +203,8 @@ $nav-delay-delta: 0.075;
   }
 
   a:hover {
-    border-left-color: $pink;
-    color: $pink;
+    border-left-color: $orange;
+    color: $orange;
   }
 
   @include media(min-height 37em) {
@@ -240,7 +240,7 @@ $nav-delay-delta: 0.075;
   }
 
   a:hover {
-    color: $pink;
+    color: $orange;
   }
 } // .b-menu-social
 
@@ -258,7 +258,7 @@ $nav-delay-delta: 0.075;
   }
 
   a:hover {
-    background: $pink;
+    background: $orange;
     color: $white;
   }
 } // .b-menu-email, .b-menu-phone

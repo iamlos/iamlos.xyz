@@ -1,4 +1,4 @@
-**Copyright © 2016 LaCroix Design Co.**
+**Copyright © 2016 Carlos Cash.**
 
 The website’s design is not licensed, please use your own…it is open-sourced to the community simply to share how we made our site and so that others may learn.
 

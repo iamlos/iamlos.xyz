@@ -2,7 +2,7 @@
 title: Lessons Learned From Working Remotely
 tagline: How a year of remote work transformed our operation.
 date: "2014-08-19 9:00"
-author: "James LaCroix"
+author: "Carlos Cash"
 published: true
 image: "lessons-learned-from-working-remotely.jpg"
 inline_header: true
@@ -11,11 +11,11 @@ above_header: true
 
 From day one, my business has been a laboratory for experimentation. My time spent working in the music industry piqued my interest in entrepreneurship and small business ventures, but I initially knew very little about running a design studio. With no previous experience as a design employee, my company was a blank canvas for how a design studio could be run. Of course, this has resulted in plenty of mistakes and hard lessons but over time, I've continually welcomed the opportunity to experiment with all aspects of the business.
 
-In the same manner that we use design thinking to deliver successful solutions for our clients, we believe that design thinking can be applied to the process that leads us to those results. Experimentation and iteration provides continual improvement in the way we operate. One such experiment meant moving my company nearly 500 miles from Nashville to Chicago. The relocation provided us with an opportunity to move out of our comfort zone in order to improve as designers and developers. It also made me grow as a business owner. Leaving a small market where my business was established and operating successfully to a much larger market where we would be virtually unknown offered its fair share of opportunities and risk.
+In the same manner that we use design thinking to deliver successful solutions for our clients, we believe that design thinking can be applied to the process that leads us to those results. Experimentation and iteration provides continual improvement in the way we operate. One such experiment meant moving my company nearly 500 miles from Nashville to Tampa. The relocation provided us with an opportunity to move out of our comfort zone in order to improve as designers and developers. It also made me grow as a business owner. Leaving a small market where my business was established and operating successfully to a much larger market where we would be virtually unknown offered its fair share of opportunities and risk.
 
 To ease the transition, Michael remained in Nashville for a year and we began working remotely. Operating out of separate locations meant that we had to adjust our workflows to ensure that the quality of our work would not slip but rather improve as we began to enter a larger market. As with any new experiment, our foray into remote work had its bumps and bruises. Before long, we had adapted and found ourselves relishing in our newfound workflows.
 
-Twelve months ago, this year-long experiment came to an end as Michael made the move to Chicago so that we could once again work within the same office. Now, with a full year of working beside one another, we have realized that the lessons learned from working remotely have made us better designers, developers and communicators.
+Twelve months ago, this year-long experiment came to an end as Michael made the move to Tampa so that we could once again work within the same office. Now, with a full year of working beside one another, we have realized that the lessons learned from working remotely have made us better designers, developers and communicators.
 
 **We became better writers.**  
 Remote work eliminated the opportunity for casual conversation. Phone calls and video chats consume too much time so we chose to limit those to important occasions. Writing became our main source of communication. This required articulation with our thoughts in order to get our points across clearly and efficiently. Whether using email, project management software or our internal chat software, working remotely demanded deliberate thought when sharing our ideas and critiques.

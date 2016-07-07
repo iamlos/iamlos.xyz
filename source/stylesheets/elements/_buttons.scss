@@ -138,7 +138,7 @@
 } // keyframes
 
 .btn {
-  @include btn($pink, $white, $border-size: 2px);
+  @include btn($orange, $white, $border-size: 2px);
   // $inverse
 }
 

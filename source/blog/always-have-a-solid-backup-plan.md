@@ -2,7 +2,7 @@
 title: "Always Have a Solid Backup Plan"
 tagline: "How we are leveraging cloud services to keep all of our design and development files backed up."
 date: "2015-02-03 7:00"
-author: "James LaCroix"
+author: "Carlos Cash"
 published: true
 image: "always-have-a-solid-backup-plan.jpg"
 inline_header: true
@@ -10,9 +10,9 @@ inline_header: true
 
 This past autumn, I once again had the opportunity to work with long-time friends and clients, [Relient K](http://relientk.com) designing and producing merchandise for their upcoming tour. Celebrating the 10-year anniversary of their best-selling album, [MMHMM](http://en.wikipedia.org/wiki/Mmhmm), the tour was slated to be a special event for both the band and their fans.
 
-In addition to newly designed merchandise, the members of Relient K wanted to reprint classic merchandise from the timeframe of their original record release. This led me to an exploration of art files from 10 years back. Many of these files predated LaCroix Design Co. and I was amazed to find that I had retained so many of the design files and records from this time. We were successfully able to manufacture the classic apparel and the tour was a huge success.
+In addition to newly designed merchandise, the members of Relient K wanted to reprint classic merchandise from the timeframe of their original record release. This led me to an exploration of art files from 10 years back. Many of these files predated Carlos Cash. and I was amazed to find that I had retained so many of the design files and records from this time. We were successfully able to manufacture the classic apparel and the tour was a huge success.
 
-Since starting LaCroix Design Co. in 2005, we have been victims of a burglary and numerous hard drive failures. The fact that I had retained a collection of files from ten years back was more of a testament to luck than any full-proof backup plan. However, we’ve never been content leaving this up to luck alone.
+Since starting Carlos Cash. in 2005, we have been victims of a burglary and numerous hard drive failures. The fact that I had retained a collection of files from ten years back was more of a testament to luck than any full-proof backup plan. However, we’ve never been content leaving this up to luck alone.
 
 From the beginning, we have made deliberate decisions to ensure that work we create for our clients is systematically backed up and available for years to come. This is an overview of the redundant system we are using to keep all our files safe.
 
@@ -48,7 +48,7 @@ Furthermore, LayerVault retains all of our project files and allows us to leave 
 
 #### Vault Drive
 
-As an added layer of backup, I keep a large hard drive of every LaCroix Design Co. project connected to my computer. As projects are completed, they are organized in folders by year. Additionally, font files and other assets are regularly archived on this drive. Since the drive is attached to my system, it is also backed up using Backblaze. While I imagine that this drive may one day be replaced by [Amazon Glacier](http://aws.amazon.com/glacier/) or something similar, but this current setup has been working out very well.
+As an added layer of backup, I keep a large hard drive of every Carlos Cash. project connected to my computer. As projects are completed, they are organized in folders by year. Additionally, font files and other assets are regularly archived on this drive. Since the drive is attached to my system, it is also backed up using Backblaze. While I imagine that this drive may one day be replaced by [Amazon Glacier](http://aws.amazon.com/glacier/) or something similar, but this current setup has been working out very well.
 
 ### Development Files
 As our design process evolved from building static designs in traditional design applications to a process of iterating, prototyping and building interactive experiences with code, versioning and keeping backups of development files has become immensely important.

@@ -1,13 +1,13 @@
 @mixin pulse-grey-to-pink-start {
-  box-shadow: 0 0 0 4px $dark-white, 0 0 0 8px rgba($pink, 0.3);
+  box-shadow: 0 0 0 4px $dark-white, 0 0 0 8px rgba($orange, 0.3);
 }
 
-@include keyframes(pulseGreyToPink) {
+@include keyframes(pulseGreyToOrange) {
   0% {
     @include pulse-grey-to-pink-start;
   }
   50% {
-    box-shadow: 0 0 0 10px $dark-white, 0 0 0 20px rgba($pink, 0.8);
+    box-shadow: 0 0 0 10px $dark-white, 0 0 0 20px rgba($orange, 0.8);
   }
   100% {
     @include pulse-grey-to-pink-start;
@@ -20,7 +20,7 @@
 
   a:hover & {
     @include pulse-grey-to-pink-start;
-    @include animation(pulseGreyToPink 1.3s linear infinite);
+    @include animation(pulseGreyToOrange 1.3s linear infinite);
     @include animation-delay(0.1s);
   }
 } // .pulse-grey-to-pink

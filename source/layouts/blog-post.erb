@@ -96,7 +96,7 @@
         <div class="b-author-meta will-animate fadeInUp" id="author">
           <div class="b-author-meta__avatar">
             <% img = capture do %>
-              <img class="image-circle image-fullwidth pulse-grey-to-pink"
+              <img class="image-circle image-fullwidth pulse-grey-to-orange"
                     src="<%= team_member_avatar_path(page_author) %>"
                     alt="<%= page_author.name %>, a <%= page_author.job_title %> at <%= data.site.title %>">
             <% end %>
@@ -117,7 +117,7 @@
   <%# Call to action %>
   <div class="s-post--cta">
     <%= partial "partials/cta_section", locals: {
-          text: "We are an innovative design and development team specializing in web and product experiences."
+          text: "Come learn something new!"
     } %>
   </div>
 

@@ -49,7 +49,7 @@
     height: $height;
     border: none;
     border-radius: 0 $border-radius $border-radius 0;
-    background: $pink;
+    background: $orange;
     color: $white;
     font-family: $typeface-sans;
     font-size: #{$button-ratio}em;
@@ -57,10 +57,10 @@
   }
 
   button:hover {
-    background: $pink-60;
+    background: $orange-60;
   }
   button:active {
-    background: $pink-70;
+    background: $orange-70;
   }
 
   @include media(400px) {

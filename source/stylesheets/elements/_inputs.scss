@@ -29,14 +29,14 @@
 
   &:focus {
     border: none;
-    border-bottom: 2px solid $pink;
+    border-bottom: 2px solid $orange;
     border-radius: 0;
     outline: none;
     box-shadow: none;
   }
 
   &.theme--error {
-    background: lighten($pink, 25);
+    background: lighten($orange, 25);
   }
 
   @include placeholder {
@@ -144,8 +144,8 @@ label {
   input[type="radio"]:checked + label:before,
   input[type="checkbox"]:checked + label:before {
     content: "\2713";
-    border-color: $pink ;
-    background: $pink ;
+    border-color: $orange ;
+    background: $orange ;
     color: $white ;
     text-align: center;
   }
@@ -175,7 +175,7 @@ label {
   font-family: $typeface-sans;
   font-size: 0.65em;
   font-weight: $bold-weight;
-  color: $pink;
+  color: $orange;
 }
 
 .input--required-asterisk {

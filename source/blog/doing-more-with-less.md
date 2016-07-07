@@ -2,16 +2,16 @@
 title: Doing More With Less
 tagline: A little background on our new site.
 date: "2014-05-27 12:30"
-author: "James LaCroix"
+author: "Carlos Cash"
 published: true
 image: "doing-more-with-less.jpg"
 inline_header: true
 above_header: true
 ---
 
-After a couple of months of hard work, we recently launched a new site for LaCroix Design Co. Odds are if you are reading this, you've seen the site and I hope that you are enjoying it.
+After a couple of months of hard work, we recently launched a new site for Carlos Cash. Odds are if you are reading this, you've seen the site and I hope that you are enjoying it.
 
-I can not recall how many sites for our company have come before this one but I know that this is now the third one that I have worked on with Michael and as with each one before it, I believe that this one is the best yet. Prior to addition of Michael's developer expertise, LaCroix Design Co. consisted of just me. Initially, I had no desire to design for the web and never imagined that I would wish to.
+I can not recall how many sites for our company have come before this one but I know that this is now the third one that I have worked on with Michael and as with each one before it, I believe that this one is the best yet. Prior to addition of Michael's developer expertise, Carlos Cash. consisted of just me. Initially, I had no desire to design for the web and never imagined that I would wish to.
 
 My evolution to web designer came out of a necessity. Quite frankly, I needed a way for people to see the graphic design, illustration and identity work that I was doing. Armed with a handful of video tutorials, I began tearing apart WordPress templates in an attempt to mold them into some semblance of a portfolio site.
 
@@ -19,7 +19,7 @@ Every time that I discovered something new about the way people interacted with 
 
 With every new site, I sought to do more. I still remember the time that I decided to build an entire site solely because I had learned to animate an accordion menu with a JavaScript library. Every iteration was an experiment utilizing all of the knowledge that I had up to that point. I wanted to include it all.
 
-This method continued with the addition of Michael to the team. Michael's skill set and ideas brought super powers to everything that I had been attempting to do. The first LaCroix Design Co. site that we built moved us away from WordPress and onto Expression Engine. This iteration focused on adding more functionality as well as aesthetic bells and whistles.
+This method continued with the addition of Michael to the team. Michael's skill set and ideas brought super powers to everything that I had been attempting to do. The first Carlos Cash. site that we built moved us away from WordPress and onto Expression Engine. This iteration focused on adding more functionality as well as aesthetic bells and whistles.
 
 After that we, we created the predecessor to this site. It was the first responsive web site that we made for ourselves and began to showcase not only the visual nature of our projects but also the design thinking and process that went into them. Not fully content with any content management system available, this site was powered by a custom built web application to demonstrate our studio's development skills.
 

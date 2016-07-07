@@ -8,7 +8,7 @@ set :helpers_filename_to_module_name_proc, Proc.new { |filename|
   basename.camelcase
 }
 
-Time.zone = "America/Chicago"
+Time.zone = "America/New York"
 
 set :markdown_engine, :redcarpet
 set :markdown,
@@ -142,7 +142,7 @@ configure :build do
   activate :gzip
 
   activate :asset_host
-  set :asset_host, "http://www.lacroixdesign.net"
+  set :asset_host, "http://www.carloscash.com"
 
   # Use relative URLs
   # activate :relative_assets

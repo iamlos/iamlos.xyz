@@ -17,7 +17,7 @@
   ul {
     a {
       padding-bottom: 1px;
-      border-bottom: 2px solid $pink;
+      border-bottom: 2px solid $orange;
     }
 
     a,
@@ -28,7 +28,7 @@
     }
 
     a:hover {
-      color: $pink;
+      color: $orange;
       text-decoration: none;
     }
   } // p, ul
@@ -88,7 +88,7 @@
     line-height: 1.75;
 
     a {
-      color: $pink;
+      color: $orange;
     }
   } // figure figcaption
 
@@ -118,7 +118,7 @@
 
     p {
       margin-bottom: 0;
-      color: $pink;
+      color: $orange;
       font-size: 1.5em;
       font-style: italic;
       line-height: 1.375;
@@ -163,7 +163,7 @@
 } // .b-text
 
 .b-tagline {
-  color: $pink;
+  color: $orange;
   font-family: $typeface-serif;
   font-size: 1.125em;
   font-style: italic;

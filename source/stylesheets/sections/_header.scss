@@ -75,7 +75,7 @@
     @include position(absolute, null null 0 0);
     width: 0;
     height: 3px;
-    background: $pink;
+    background: $orange;
     content: '';
     @include transition(width 0.2s ease-out);
   }
