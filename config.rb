@@ -8,7 +8,7 @@ set :helpers_filename_to_module_name_proc, Proc.new { |filename|
   basename.camelcase
 }
 
-Time.zone = "America/New York"
+Time.zone = "America/New_York"
 
 set :markdown_engine, :redcarpet
 set :markdown,
