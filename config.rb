@@ -107,7 +107,7 @@ configure :build do
       { icon: "mstile-310x150.png", size: "310x150" }
     ]
   }
-
+  end
 ###
 # Team member pages
 ###
