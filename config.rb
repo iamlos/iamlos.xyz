@@ -76,10 +76,10 @@ configure :build do
   # config[:katoen] = {
   #   debug: 0
   # }
-  config[:carloscash] = {
+  config[:iamlos.github.io] = {
      environment: 'production',
      # dashboardAPI: '',
-     websiteURL: 'http://www.carloscash.com'
+     websiteURL: 'https://iamlos.github.io'
   }
   activate :favicon_maker, :icons => {
     "_favicon_template.png" => [
@@ -179,7 +179,7 @@ configure :build do
   activate :gzip
 
   activate :asset_host
-  set :asset_host, "http://www.carloscash.com"
+  set :asset_host, "https://iamlos.github.io"
 
   # Use relative URLs
   # activate :relative_assets
