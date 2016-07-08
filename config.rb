@@ -142,7 +142,7 @@ redirect "team.html", :to => "/#team"
 redirect "portfolio.html", :to => "/case-studies/"
 
 activate :directory_indexes
-page "/pinterest-e87c7.html", :directory_index => false
+# page "/pinterest-e87c7.html", :directory_index => false
 page "/sitemap.xml", :layout => false
 page "/feed.xml", layout: false
 

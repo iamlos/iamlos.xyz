@@ -20,7 +20,7 @@ xml.instruct!
 # http://www.sitemaps.org/protocol.html
 # http://support.google.com/webmasters/bin/answer.py?hl=en&answer=156184&topic=8476&ctx=topic
 #
-# Remember to exchange www.carloscash.com for your domain (line 64)
+# Remember to exchange https://iamlos.github.io for your domain (line 64)
 # and to set an apropriate update frequency for your site (line 84)
 
 xml.urlset "xmlns" => "http://www.sitemaps.org/schemas/sitemap/0.9" do
@@ -39,7 +39,6 @@ xml.urlset "xmlns" => "http://www.sitemaps.org/schemas/sitemap/0.9" do
       throw :next_page if page.url.start_with?('/videos/')
       throw :next_page if page.url.start_with?('/layouts/')
       throw :next_page if page.url.start_with?('/apple-touch-icon')
-      throw :next_page if page.url.start_with?('/CNAME')
       throw :next_page if page.url.end_with?('.xml')
       throw :next_page if page.url.end_with?('.json')
       throw :next_page if page.url.start_with?('/.')   # .htaccess, .DS_Store, .git etc.
@@ -47,8 +46,6 @@ xml.urlset "xmlns" => "http://www.sitemaps.org/schemas/sitemap/0.9" do
       throw :next_page if page.url == '/favicon.ico'
       throw :next_page if page.url == '/humans.txt'
       throw :next_page if page.url == '/404.html'
-      throw :next_page if page.url == '/pinterest-e87c7.html'
-      throw :next_page if page.url == '/technoratimedia_sv_6763.txt'
       throw :next_page if page.is_a? Middleman::Sitemap::Extensions::Redirects::RedirectResource
 
       # Exclude drafts
