@@ -1,4 +1,4 @@
-**Copyright © 2016 Carlos Cash.**
+**Copyright © 2016 iamlos.**
 
 Site design & development implemented by Lacroix Design Co. 
 This site is an experiment to learn middleman design. 

@@ -1,6 +1,13 @@
 # Workflow
 
+Ruby 2.1.0
+Middleman 3.3
+
 Development server
+
+```
+bundle install
+```
 
 ```
 bin/middleman

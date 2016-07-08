@@ -1,5 +1,5 @@
 {
-	"name": "Carlos Cash",
+	"name": "iamlos",
 	"icons": [
 		{
 			"src": "\/android-chrome-36x36.png",
@@ -38,6 +38,6 @@
 			"density": "4.0"
 		}
 	],
-	"start_url": "http:\/\/www.carloscash.com",
+	"start_url": "https:\/\/iamlos.github.io,
 	"display": "standalone"
 }

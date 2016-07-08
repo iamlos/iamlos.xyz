@@ -2,7 +2,7 @@
 title: "Recommended Reading - Insites: The Book"
 tagline: "Industry secrets from the very best designers, developers and entrepreneurs."
 date: 2013-01-07 12:00
-author: "Carlos Cash"
+author: "iamlos"
 image: "insites.jpg"
 cover_header: true
 ---

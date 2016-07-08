@@ -2,7 +2,7 @@
 title: "What Does Success Look Like?"
 tagline: "The value of defining expectations."
 date: 2013-04-04 12:00
-author: "Carlos Cash"
+author: "iamlos"
 image: "success.jpg"
 inline_header: true
 above_header: true

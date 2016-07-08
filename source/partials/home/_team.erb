@@ -6,7 +6,7 @@
     </header>
     <div class="l-constrained-medium">
       <div class="s-team__photos">
-        <% [ find_team_member_by_name("Carlos Cash") ].each_with_index do |member, index| %>
+        <% [ find_team_member_by_name("iamlos") ].each_with_index do |member, index| %>
           <article id="<%= member.slug %>" class="will-animate <%= index == 0 ? 'fadeInLeft' : 'fadeInRight' %>" data-wow-duration="0.7s" data-wow-delay="0.2s">
             <a href="/team/<%= member.slug %>">
               <img src="<%= team_member_avatar_path(member) %>"

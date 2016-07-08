@@ -2,7 +2,7 @@
 title: Lessons Learned From Working Remotely
 tagline: How a year of remote work transformed our operation.
 date: "2014-08-19 9:00"
-author: "Carlos Cash"
+author: "iamlos"
 published: true
 image: "lessons-learned-from-working-remotely.jpg"
 inline_header: true

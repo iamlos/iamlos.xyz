@@ -2,7 +2,7 @@
 title: "Why Choose Responsive Web Design?"
 tagline: "The benefits of a flexible web experience."
 date: 2013-04-01 12:00
-author: "Carlos Cash"
+author: "iamlos"
 image: "responsive.jpg"
 inline_header: true
 above_header: true

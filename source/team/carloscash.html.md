@@ -1,7 +1,7 @@
 ---
-member: "Carlos Cash"
-title: "Carlos Cash - Bio"
-long_title: "Carlos Cash is a Developer and Online Marketing expert"
+member: "Carlos"
+title: "iamlos - bio"
+long_title: "Carlos is a Developer and Online Marketing expert"
 cover_header: "/images/backgrounds/home-welcome.jpg"
 ---
 
@@ -9,4 +9,4 @@ Carlos' life experiences are as extrdaordinary as they come. <!-- Taking after h
 
 
 
-When he is not building projects for Carlos Cash | Marketing &amp; Development Blog, Carlos is constantly digging in <a href="https://github.com/iamlos" target="_blank">open source projects</a> to find the latest libraries to build with.
+When he is not building projects for iamlos | Marketing &amp; Development Blog, Carlos is constantly digging in <a href="https://github.com/iamlos" target="_blank">open source projects</a> to find the latest libraries to build with.
