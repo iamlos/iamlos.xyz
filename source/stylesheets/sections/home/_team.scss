@@ -2,12 +2,13 @@
   position: relative;
   z-index: 1;
   padding-bottom: 1em;
-  background: $white image-url('backgrounds/chicago-skyline.png') no-repeat center bottom;
+  background: $white image-url('images/backgrounds/tampa.jpg') no-repeat center cover;
   text-align: center;
 
   @include hidpi(1.5) {
-    background-image: image-url('backgrounds/chicago-skyline_@2X.png');
-    background-size: 1200px 360px;
+    background-image: image-url('images/backgrounds/tampa.jpg');
+    // background-size: 1200px 360px;
+    background-size: cover;
   }
 } // .s-team
 
@@ -19,7 +20,7 @@
 
 .s-team__based {
   margin-bottom: 1em;
-  color: $blue-chicago;
+  color: $orange;
   font-size: 1.5em;
   font-weight: 800;
   text-transform: uppercase;

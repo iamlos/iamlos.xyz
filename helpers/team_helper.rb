@@ -14,7 +14,7 @@ module TeamHelper
 
   # Team avatar path
   def team_member_avatar_path(author)
-    image_path("team/#{author.avatar}.jpg")
+    image_path("team/#{author.avatar}.png")
   end
 
   # Team member URL path
