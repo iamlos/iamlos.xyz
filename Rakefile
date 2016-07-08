@@ -47,9 +47,6 @@ namespace :domain do
     end
   end
 
-  def cname_file
-    "source/CNAME"
-  end
 
   def current_domain
     if File.file?(cname_file)
@@ -62,7 +59,7 @@ namespace :domain do
   end
 
   def create_domain
-    domain = ask("Provide a domain name, such as <%= color('www.carloscash.com', BLUE) %>:") do |q|
+    domain = ask("Provide a domain name, such as <%= color('iamlos.github.io', BLUE) %>:") do |q|
       q.validate = /^[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,6}$/
       q.responses[:not_valid] = "That domain name is not valid."
     end
