@@ -79,7 +79,7 @@ configure :build do
   config[:iamlos.github.io] = {
      environment: 'deploy',
      # dashboardAPI: '',
-     websiteURL: 'iamlos.github.io'
+     websiteURL: 'https://iamlos.github.io'
   }
   activate :favicon_maker, :icons => {
     "_favicon_template.png" => [
@@ -148,7 +148,7 @@ page "/feed.xml", layout: false
 
 activate :deploy do |deploy|
   deploy.method = :git
-  # deploy.remote = "origin" # uses 'origin' by default
+  deploy.remote = "origin" # uses 'origin' by default
   # deploy.branch = "gh-pages" # uses 'gh-pages' by default
 end
 
@@ -179,7 +179,7 @@ configure :build do
   activate :gzip
 
   activate :asset_host
-  set :asset_host, "iamlos.github.io"
+  set :asset_host, "https://iamlos.github.io"
 
   # Use relative URLs
   activate :relative_assets
