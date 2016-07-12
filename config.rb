@@ -77,9 +77,9 @@ configure :build do
   #   debug: 0
   # }
   config[:iamlos.github.io] = {
-     environment: 'production',
+     environment: 'deploy',
      # dashboardAPI: '',
-     websiteURL: 'https://iamlos.github.io'
+     websiteURL: 'iamlos.github.io'
   }
   activate :favicon_maker, :icons => {
     "_favicon_template.png" => [
@@ -179,10 +179,10 @@ configure :build do
   activate :gzip
 
   activate :asset_host
-  set :asset_host, "https://iamlos.github.io"
+  set :asset_host, "iamlos.github.io"
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
