@@ -76,7 +76,7 @@ configure :build do
   # config[:katoen] = {
   #   debug: 0
   # }
-  config[: iamlos.github.io] = {
+  config[:iamlos.github.io] = {
      environment: 'deploy',
      # dashboardAPI: '',
      websiteURL: 'https://iamlos.github.io'
