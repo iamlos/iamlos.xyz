@@ -28,7 +28,7 @@ We start with [Time Machine](http://support.apple.com/en-us/HT201250), the built
 
 Time Machine is a terrific feature, but it is backing up the files to disks which reside at the same physical location as our computers. Thus, we require something that will allow us to backup the bulk of our files to remote storage.
 
-This is where [Backblaze](https://iamlos.github.io /1vplTMd) excels. For $50 a year, Backblaze will continuously backup an unlimited amount of data from you computer and any drives attached to it. This provides us access to multiple versions of our files through its online interface. Or, we may request the shipment of a hard drive with all of our data on it.
+This is where [Backblaze](https://iamlos.github.io/1vplTMd) excels. For $50 a year, Backblaze will continuously backup an unlimited amount of data from you computer and any drives attached to it. This provides us access to multiple versions of our files through its online interface. Or, we may request the shipment of a hard drive with all of our data on it.
 
 Although this backup process is not a fast as a locally attached device or Time Machine running on our local network, Backblaze provides us with a sound piece of mind knowing that our files are continuously being backed up off-site.
 
@@ -58,6 +58,6 @@ As our design process evolved from building static designs in traditional design
 All of our development projects are version-controlled using [Git](http://git-scm.com/). We host the majority of these repositories publicly and privately on [GitHub](http://github.com) and utilize [Bitbucket](https://bitbucket.org/) to host repositories for our smaller projects that we wish to keep private.
 
 ### Documents & Meeting Notes
-Documents for all projects are stored on [Google Drive](https://www.google.com/drive/) and also archived along with all design files onto our Vault Drive upon the completion of each project. [Evernote](https://iamlos.github.io /1DylAxU) is used to record all meeting notes, which are then shared internally.
+Documents for all projects are stored on [Google Drive](https://www.google.com/drive/) and also archived along with all design files onto our Vault Drive upon the completion of each project. [Evernote](https://iamlos.github.io/1DylAxU) is used to record all meeting notes, which are then shared internally.
 
 If it is not obvious by now, our backup process is very important to us. Being able to provide files and assets years after a project is over allows us to continually exceed the expectations of the clients that partner with us. Feel free to [comment on Twitter](https://twitter.com/lacroixdesign) if you have any questions or need clarity as to how we are using these tools and services.

@@ -20,7 +20,7 @@ xml.instruct!
 # http://www.sitemaps.org/protocol.html
 # http://support.google.com/webmasters/bin/answer.py?hl=en&answer=156184&topic=8476&ctx=topic
 #
-# Remember to exchange https://iamlos.github.io for your domain (line 64)
+# Remember to exchange https://iamlos.github.iofor your domain (line 64)
 # and to set an apropriate update frequency for your site (line 84)
 
 xml.urlset "xmlns" => "http://www.sitemaps.org/schemas/sitemap/0.9" do
