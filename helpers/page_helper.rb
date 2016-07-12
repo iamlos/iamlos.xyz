@@ -6,7 +6,7 @@ module PageHelper
   end
 
   def page_url(page = current_page)
-    # "https://iamlos.github.io.fwd.wf" + page.url
+    # "https://iamlos.xyz.fwd.wf" + page.url
     data.site.host + page.url
   end
 

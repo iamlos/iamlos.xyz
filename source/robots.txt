@@ -6,4 +6,4 @@ Disallow: /portfolio/
 Disallow: /resume/
 Disallow: /resume
 Disallow: /pinterest-e87c7.html
-Allow: https://iamlos.github.io/sitemap.xml
+Allow: https://iamlos.xyz/sitemap.xml
