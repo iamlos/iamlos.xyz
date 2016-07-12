@@ -148,9 +148,9 @@ page "/feed.xml", layout: false
 
 activate :deploy do |deploy|
   deploy.method = :git
-  deploy.build_before = true
-  deploy.remote = "maste" # uses 'origin' by default
-  # deploy.branch = "gh-pages" # uses 'gh-pages' by default
+  # deploy.build_before = true
+  # deploy.remote = "master" # uses 'origin' by default
+  deploy.branch = "gh-pages" # uses 'gh-pages' by default
 end
 
 set :css_dir,    'stylesheets'
