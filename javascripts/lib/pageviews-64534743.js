@@ -1,0 +1,1 @@
+!function(){var n=function(){var n=window.location.pathname+window.location.hash+window.location.search,o=window[window.GoogleAnalyticsObject];"undefined"!=typeof o&&o("send","pageview",n)};window.sendPageview=n}();

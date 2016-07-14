@@ -1,0 +1,1 @@
+!function(){function n(n,e,o){var i=window[window.GoogleAnalyticsObject];"undefined"!=typeof i&&i("send","event",n,e,o)}window.googleEvent=n}();

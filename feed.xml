@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>iamlos.</title>
+  <subtitle>Empowering businesses to become more successful, developing innovative experiences that deliver measurable results.</subtitle>
+  <id>http://iamlos.xyz/blog</id>
+  <link href="http://iamlos.xyz/blog"/>
+  <link href="http://iamlos.xyz/feed.xml" rel="self"/>
+  <updated>2015-05-21T10:45:00-04:00</updated>
+  <entry>
+    <title>Far From Finished</title>
+    <link rel="alternate" href="http://iamlos.xyz/blog/far-from-finished/"/>
+    <id>http://iamlos.xyz/blog/far-from-finished/</id>
+    <published>2015-05-21T10:45:00-04:00</published>
+    <updated>2016-07-14T08:14:01-04:00</updated>
+    <author>
+      <name>iamlos</name>
+    </author>
+    <content type="html">&lt;p&gt;As it turns out, finding contentment is not one of my stronger traits and this is especially evident when it comes to design. There’s always been the excitement when something Michael and I have made is released to the world. That moment is fleeting once we begin to dissect every minute detail in search of opportunities for improvement.&lt;/p&gt;
+
+&lt;p&gt;Critique is important and I wouldn’t have it any other way. Although, this was quite problematic when I began my career as a print designer and everything that I designed was more permanent. As a web and product designer, I delight in the flexible and iterative qualities of the medium.&lt;/p&gt;
+
+&lt;p&gt;In the business of client services, you do not always get the opportunity to continually improve upon everything that you ship. Very often, the client is happy, the project ends, you get paid and the thing that you created goes on without you. Sadly, these projects miss out on the beneficial iterations that happen after your have been able to assess how the visitors or users interact with the product.&lt;/p&gt;
+
+&lt;p&gt;Luckily, we have had the pleasure to work with a number of clients who allow us to return to previous projects and tackle new challenges. I’m consistently assured that these experiences will continue to improve if we never treat them as finished. Nowhere is this more evident than in our personal projects. For example, our own website is never finished and we are constantly trying to improve the our visitors&amp;#39; experience.&lt;/p&gt;
+
+&lt;p&gt;Nearly a year ago, I wrote a &lt;a target="_blank" href="http://iamlos.xyz/blog/doing-more-with-less/"&gt;post for the launch of our new website&lt;/a&gt; about how a simpler solution provides us with the freedom to iterate. Our current website utilizes &lt;a target="_blank" href="https://middlemanapp.com/"&gt;Middleman&lt;/a&gt; to generate a static site upon deployment and this provides a fantastic venue for exploring and implementing new solutions. Earlier this year, we made some improvements to our website. In this post, I’d like to share the decision making behind these changes and the results that we’ve received.&lt;/p&gt;
+
+&lt;h3&gt;The Homepage Welcome Section&lt;/h3&gt;
+
+&lt;p&gt;First of all, no other place on the site has received more copy revisions than the first section of our homepage. When you tackle a wide variety of design problems with a range of  solutions and tools, describing your business in one sentence is far from easy.&lt;/p&gt;
+
+&lt;p&gt;For the first time in a long time, I feel pretty good about what we have on there now. We love to design solutions that establish a connection and allow our clients to engage the audience in a very human way. We decided this copy needed more emphasis, so we adjusted the typography accordingly.&lt;/p&gt;
+
+&lt;figure class="image-stretch-wrap"&gt;&lt;img alt="The image background to the welcome section of our site was replaced with video, and typographic updates were made as well." class="image-fullwidth" width="800" height="200" src="http://iamlos.xyz/images/blog/far-from-finished/hero-comparison-89373e60.gif" /&gt;&lt;/figure&gt;
+
+&lt;p&gt;Our previous background for this section was my desk. I believe that we have a nice workspace and I do tend to keep a tidy desk. However, this was far from being a compelling image for the homepage. We explored a number of solutions for this that included illustrations, solid colors, SVG animation and we eventually decided to use video. We love the personal proximity with which people use mobile devices and found that this created a visual connection to what we value. We also explored various methods of tinting the video to match our pink brand color, but we will cover that in a future post.&lt;/p&gt;
+
+&lt;h3&gt;Featured Work &amp;amp; Services Section&lt;/h3&gt;
+
+&lt;p&gt;Another area of our site we were never content with was the featured work section of the homepage. For a while, Michael and I were pretty set on trying to contain these in an interesting shape. After exhausting nearly every option we could think of, we eventually determined it was not the best solution and opted to go with a layout that is more consistent with the case studies on our site. In the end, this provides visitors with a more cohesive experience.&lt;/p&gt;
+
+&lt;figure class="image-stretch-wrap"&gt;&lt;img alt="Featured Work and Services Section Comparison" class="image-fullwidth" width="800" height="395" src="http://iamlos.xyz/images/blog/far-from-finished/featured-comparison-987a1b10.jpg" /&gt;&lt;figcaption&gt;Our previous Featured Work and Services sections &lt;em&gt;(left)&lt;/em&gt; compared to the updated design &lt;em&gt;(right)&lt;/em&gt;.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Previously, we also used an angled container for our services section. On a micro level, we enjoyed this concept, but it did not quite fit with everything else on our website. We determined that our previous image of my workspace might be appropriate in this space. It connects to the collection of tools and devices that we use solve our clients problems. We also made some typography changes to the headers in both of these sections.&lt;/p&gt;
+
+&lt;h3&gt;Improving Visitor Engagement on Blogs &amp;amp; Case Studies&lt;/h3&gt;
+
+&lt;p&gt;Blog posts drive a lot of traffic to our site and this has made writing them a much more enjoyable process. Plus, the increased traffic makes examining the analytics more interesting. We found that many visitors were spending time on the site to read the entire post, but were bouncing off of the page once they finished.&lt;/p&gt;
+
+&lt;figure class="image-stretch-wrap"&gt;&lt;img alt="Blog Recomendations" class="image-fullwidth" width="800" height="698" src="http://iamlos.xyz/images/blog/far-from-finished/blog-recommendations-d863107e.jpg" /&gt;&lt;figcaption&gt;Blog posts and individual case studies now featured recommendations to facilitate exploration.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Thus, we decided to implement a solution that encourages visitors to explore more content. Each post now concludes with a call to action followed by previews for three other posts. We also decided to add a similar experience to the individual case studies pages. The result? We are now seeing visitors land on individual blog or case study and diving deeper into the site.&lt;/p&gt;
+
+&lt;h3&gt;Keeping the Conversation Going&lt;/h3&gt;
+
+&lt;p&gt;Since our website is deployed as a static build, commenting functionality is not a feature of our blog, nor do we really desire to manage comments. However, we do want to keep the conversation going, and Michael and I want to be available for any questions or responses. For this reason, we built a Twitter intent option into our post structure.&lt;/p&gt;
+
+&lt;figure class="image-stretch-wrap"&gt;&lt;img alt="Blog Post Conversation Actions" class="image-fullwidth" width="1520" height="288" src="http://iamlos.xyz/images/blog/far-from-finished/conversation-actions-31c6d74f.png" /&gt;&lt;figcaption&gt;Readers of our blog posts can now engage in the conversation on Twitter or Designer News.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;We have also found that some of our blog posts garner a lot of readers from &lt;a target="_blank" href="https://www.designernews.co/"&gt;Designer News&lt;/a&gt;. As a result, we decided to add a posting option so that our readers can continue the conversation through comments on Designer News.&lt;/p&gt;
+
+&lt;h3&gt;Increasing Email Newsletter Signup&lt;/h3&gt;
+
+&lt;p&gt;In August of last year, we added a subtle newsletter call to action to the footer of our site. Although we began to see subscribers trickle in, this was in no way a successful solution. Therefore, we decided to redesign this call to action to give it more visual weight.&lt;/p&gt;
+
+&lt;figure class="image-stretch-wrap"&gt;&lt;img alt="Previous Call-To-Action" class="image-fullwidth" width="800" height="400" src="http://iamlos.xyz/images/blog/far-from-finished/previous-newsletter-signup-9c211e48.jpg" /&gt;&lt;figcaption&gt;Our previous newsletter signup call-to-action.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure class="image-stretch-wrap"&gt;&lt;img alt="New Call-To-Action" class="image-fullwidth" width="800" height="400" src="http://iamlos.xyz/images/blog/far-from-finished/new-newsletter-signup-3b7ea3fd.jpg" /&gt;&lt;figcaption&gt;Our new, more prominent newsletter signup call-to-action.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;The more prominent call to action has more than doubled our list, and we are regularly adding new subscribers. This, in turn, leads to a new challenge of keeping up with our monthly delivery. Due to a busy workload, we have been a bit lax over the past several months, but we plan to pick back up soon.&lt;/p&gt;
+
+&lt;h3&gt;We’re Still Far from Finished&lt;/h3&gt;
+
+&lt;p&gt;Michael and I have an ongoing &lt;a target="_blank" href="https://trello.com/jameslacroix/recommend"&gt;Trello&lt;/a&gt; board where we regularly add new ideas and discuss solutions for improving our website. In doing so, we are also gaining clients who learn to value the process and set aside budgets for continual improvement.&lt;/p&gt;
+</content>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://iamlos.xyz/images/blog/far-from-finished/hurdle-2a54e82c.jpg"/>
+  </entry>
+  <entry>
+    <title>Streamlining Our Proposal Writing Process</title>
+    <link rel="alternate" href="http://iamlos.xyz/blog/streamlining-our-proposal-writing-process/"/>
+    <id>http://iamlos.xyz/blog/streamlining-our-proposal-writing-process/</id>
+    <published>2015-03-13T11:50:00-04:00</published>
+    <updated>2016-07-12T12:16:11-04:00</updated>
+    <author>
+      <name>iamlos</name>
+    </author>
+    <content type="html">&lt;p&gt;As designers and developers, it is our innate desire to spend time making things. Nevertheless, when you are running your own business, there are many other responsibilities required before, during and after a project.&lt;/p&gt;
+
+&lt;p&gt;One of these essential duties is writing proposals. After nearly 10 years of running iamlos., the role of proposal writer is still one of my least favorites. A great deal of thought and effort goes into every proposal we send out. As a result, many hours are typically spent compiling notes from meetings and phone calls into a well-formulated document that not only proposes the most optimal solution, but also outlines the best process for arriving at that solution. Needless to say, it can be quite disheartening when a proposal is rejected or not even considered.&lt;/p&gt;
+
+&lt;p&gt;&lt;img width="480" height="270" src="http://iamlos.xyz/images/blog/streamlining-our-proposal-writing-process/angry-8290071a.gif" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Proposals, however, serve a crucial role in the relationship between the client and designer. It defines scope, boundaries, expectations and, of course, payment. As a result, writing proposals is a task that cannot be avoided. In our studio, we are always seeking to optimize processes for a more efficient workflow in every business aspect. Therefore, we have sought to develop a proposal writing process that is more streamlined. Although we may continue to iterate on this process as time goes on, we have arrived at a solution using Git, Markdown and CSS that works very well for our small studio.&lt;/p&gt;
+
+&lt;h3&gt;Where We Started&lt;/h3&gt;
+
+&lt;p&gt;When I first began writing project proposals, the studio was mainly focused on providing print design and illustration services. Indesign was the obvious tool to create fantastic looking documents that were on-brand. Although it is poor practice, I often did all of my writing and editing in the application as well.&lt;/p&gt;
+
+&lt;p&gt;Later on, it became beneficial to have a second set of eyes review each proposal. At this time, Michael had begun working with me on web projects and had zero familiarity with Indesign. We were both already using &lt;a target="_blank" href="http://daringfireball.net/projects/markdown/syntax"&gt;Markdown&lt;/a&gt; for taking notes, so it seemed like the obvious transition was to also use this for the drafting phase. We would take turns editing the Markdown file. Then, I would transfer all of the content block by block into the Indesign document. Although the Markdown syntax clearly delineated the different elements, this was still an arduous task.&lt;/p&gt;
+
+&lt;p&gt;&lt;img width="480" height="240" src="http://iamlos.xyz/images/blog/streamlining-our-proposal-writing-process/faint-0d4e5868.gif" /&gt;&lt;/p&gt;
+
+&lt;p&gt;We also tried out &lt;a target="_blank" href="https://www.bidsketch.com/"&gt;Bidsketch&lt;/a&gt;, &lt;a target="_blank" href="http://www.quoteroller.com/"&gt;Quote Roller&lt;/a&gt; and  several other web applications designed at solving the proposal creation issue. While these are all fine pieces of software that provided some nice features, none of them really seemed to fit our needs. The editing process was still sluggish since content was separated into different admin sections and often the WYSIWYG editors caused more problems than they were worth. Every time we would abandon one of these tools, we would return to our Indesign process.&lt;/p&gt;
+
+&lt;h3&gt;Our Current Process with Git, Markdown &amp;amp; CSS&lt;/h3&gt;
+
+&lt;p&gt;Approximately one year ago, we were approached by a number of prospective clients that required a fair amount of proposals to be delivered within a short amount of time. It was at this time that we finally decided we had to find a better process. We were already writing and editing our proposals in Markdown, so it only made sense that we should utilize the strengths of the syntax.&lt;/p&gt;
+
+&lt;p&gt;Since we were already using Git for collaborating on website and software projects, using it for documents seemed like a sensible choice for this new process. Today, I begin by creating a draft of the proposal using Markdown — I prefer to use &lt;a target="_blank" href="http://writer.pro/"&gt;IA Writer Pro&lt;/a&gt; for this and Michael prefers &lt;a target="_blank" href="https://atom.io/"&gt;Atom&lt;/a&gt; — and commit it to a private &lt;a target="_blank" href="https://github.com/"&gt;Github&lt;/a&gt; repository. We then have a &lt;a target="_blank" href="https://slack.com/r/024l00bf-02533q4k"&gt;Slack&lt;/a&gt; notification set for any updates to this particular repo. Michael can then pull the document and provide any edits that he sees fit. We are able to continue this process until we have solidified the proposed solution.&lt;/p&gt;
+
+&lt;p&gt;Once the editing phase is completed, we use &lt;a target="_blank" href="http://marked2app.com/"&gt;Marked 2&lt;/a&gt; to create a final document. One of Marked’s key features is the ability to style your content with a custom CSS style sheet. We slightly modified the &lt;a target="_blank" href="https://gist.github.com/jamesdlacroix/d574d925c157114c2d7c"&gt;base stylesheet&lt;/a&gt; that came with the software to fit our brand’s proposal style. Additionally, with a snippet of HTML, we are able to create a cover page for each document that displays our logo using an SVG.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-markup"&gt;&amp;lt;div class=&amp;quot;cover&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;cover-logo&amp;quot;&amp;gt;
+      &amp;lt;img src=&amp;quot;../assets/images/logo.svg&amp;quot; alt=&amp;quot;iamlos.&amp;quot; /&amp;gt;
+    &amp;lt;/div&amp;gt;
+
+# Project Name
+### Client Company Name
+
+##### Prepared For: Client Name
+*13 March, 2015*
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Marked offers a few key features that allow us to dynamically create some elements of the proposal. For example, a table of contents can be inserted anywhere in the document using the &lt;a target="_blank" href="http://marked2app.com/help/Special_Syntax.html"&gt;software’s special syntax&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-markup"&gt;&amp;lt;!--TOC--&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The same also applies to page breaks.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-markup"&gt;&amp;lt;!--BREAK--&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;However, we are primarily automating page breaks through the apps settings by adding page breaks before every h1 and h2 element. Through the settings, we are a adding dynamically created headers and footers as well.&lt;/p&gt;
+
+&lt;figure class="image-stretch-wrap"&gt;&lt;img alt="Marked Export Settings" class="image-fullwidth" width="1600" height="1665" src="http://iamlos.xyz/images/blog/streamlining-our-proposal-writing-process/marked-settings-0217613d.jpg" /&gt;&lt;figcaption&gt;These are the export settings that we are currently using to create our proposals.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Once we are ready to send over the proposal, we output it using the paginated PDF feature and quite often deliver it to the client using &lt;a target="_blank" href="https://www.hellosign.com?ref=92f9561f&amp;amp;s=S"&gt;HelloSign&lt;/a&gt;. This allows them to digitally sign the delivered proposal with ease.&lt;/p&gt;
+
+&lt;figure class="image-stretch-wrap"&gt;&lt;img alt="Marked's Paginated PDF Export" class="image-fullwidth" width="1600" height="1067" src="http://iamlos.xyz/images/blog/streamlining-our-proposal-writing-process/marked-paginated-pdf-0f6523ac.jpg" /&gt;&lt;figcaption&gt;Export using Save PDF (paginated) to include page breaks as well as the header and footer.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;I have put together an example proposal using &lt;a target="_blank" href="http://www.monocleipsum.com/"&gt;Monocle Ipsum&lt;/a&gt; and &lt;a target="_blank" href="http://www.docracy.com/2822/standard-agreement-for-design-services-interactive-web-works-exclusive-license-no-modification"&gt;AIGA’s Standard Agreement for Design Services&lt;/a&gt;. The files are available via the following links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://gist.github.com/jamesdlacroix/5a99eec3d11a5c745504"&gt;Markdown Proposal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="http://cloud.carloscash.com/2I2H2h3h2e17"&gt;Example PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="http://cloud.carloscash.com/3k3h1n023E28"&gt;Logo SVG&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://gist.github.com/jamesdlacroix/d574d925c157114c2d7c"&gt;Marked Stylesheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Benefits&lt;/h3&gt;
+
+&lt;p&gt;The main benefit of this workflow has been timed saved. We are now able to go straight from the editing process into a final proposal, and no longer have to copy and paste content into an Indesign file. Furthermore, many of our proposals are often read online and include links pointing toward recommended services. We are able to utilize the Markdown syntax to generate these links, which is far easier than applying them using Indesign’s interactive hyperlinks panel.&lt;/p&gt;
+
+&lt;p&gt;&lt;img width="480" height="230" src="http://iamlos.xyz/images/blog/streamlining-our-proposal-writing-process/benefits-071202b5.gif" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Adding visual elements to the proposal also became a lot easier. With Markdown, we are able to quickly add in figures with captions to help explain the solution or provide context to the scope of the project. As you will see in the example, we are creating tables in markdown for the project timeline. Timeline tables provide a great visual reference for our potential clients. Creating tables like these in design software would be much more time consuming, whereas our current solution allows for easy editing and implementation.&lt;/p&gt;
+
+&lt;h3&gt;Future Enhancements&lt;/h3&gt;
+
+&lt;p&gt;As with nearly everything we work on, we are far from finished and are always looking to further iterate our solutions. We are eventually looking at breaking the reusable pieces of our proposals out into partials so that they can easily be inserted into a document. This would include basic contract definitions, intellectual property provisions, interactive provisions and basic elements such as a signature form.&lt;/p&gt;
+
+&lt;p&gt;Marked has a special syntax for &lt;a target="_blank" href="http://marked2app.com/help/Multi-File_Documents.html"&gt;multi-file documents&lt;/a&gt; which would allow us to begin testing this process out. We have also contemplated creating a local build tool that would provide more customization for this process. A major advantage of creating the reusable components is that we could make changes and have it automatically applied to all future proposals.&lt;/p&gt;
+
+&lt;p&gt;Finally, our initial stylesheet relied heavily on Marked’s base CSS. In the future, I’m certain that we will look into further customizing and expanding the styles to create better presentations for our clients.&lt;/p&gt;
+
+&lt;p&gt;&lt;img width="480" height="198" src="http://iamlos.xyz/images/blog/streamlining-our-proposal-writing-process/eyebrow-raise-c3fce404.gif" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Let us know if you have found any ways to streamline your proposal writing process and, as always, contact us if you have any questions about ours.&lt;/p&gt;
+</content>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://iamlos.xyz/images/blog/streamlining-our-proposal-writing-process/streamlining-our-proposal-writing-process-d81abe26.jpg"/>
+  </entry>
+  <entry>
+    <title>Always Have a Solid Backup Plan</title>
+    <link rel="alternate" href="http://iamlos.xyz/blog/always-have-a-solid-backup-plan/"/>
+    <id>http://iamlos.xyz/blog/always-have-a-solid-backup-plan/</id>
+    <published>2015-02-03T07:00:00-05:00</published>
+    <updated>2016-07-12T12:16:11-04:00</updated>
+    <author>
+      <name>iamlos</name>
+    </author>
+    <content type="html">&lt;p&gt;This past autumn, I once again had the opportunity to work with long-time friends and clients, &lt;a target="_blank" href="http://relientk.com"&gt;Relient K&lt;/a&gt; designing and producing merchandise for their upcoming tour. Celebrating the 10-year anniversary of their best-selling album, &lt;a target="_blank" href="http://en.wikipedia.org/wiki/Mmhmm"&gt;MMHMM&lt;/a&gt;, the tour was slated to be a special event for both the band and their fans.&lt;/p&gt;
+
+&lt;p&gt;In addition to newly designed merchandise, the members of Relient K wanted to reprint classic merchandise from the timeframe of their original record release. This led me to an exploration of art files from 10 years back. Many of these files predated iamlos. and I was amazed to find that I had retained so many of the design files and records from this time. We were successfully able to manufacture the classic apparel and the tour was a huge success.&lt;/p&gt;
+
+&lt;p&gt;Since starting iamlos. in 2005, we have been victims of a burglary and numerous hard drive failures. The fact that I had retained a collection of files from ten years back was more of a testament to luck than any full-proof backup plan. However, we’ve never been content leaving this up to luck alone.&lt;/p&gt;
+
+&lt;p&gt;From the beginning, we have made deliberate decisions to ensure that work we create for our clients is systematically backed up and available for years to come. This is an overview of the redundant system we are using to keep all our files safe.&lt;/p&gt;
+
+&lt;h3&gt;System Wide&lt;/h3&gt;
+
+&lt;p&gt;Our backup plan starts with individual computers. This ensures everything on our systems is accessible at any given time. Should we experience a system malfunction, hard drive failure, theft or some other disaster, these backups are available to help us get up and running quickly. These system solutions work in tandem with the other services we outline to provide redundancy.  &lt;/p&gt;
+
+&lt;h4&gt;Time Machine&lt;/h4&gt;
+
+&lt;p&gt;We start with &lt;a target="_blank" href="http://support.apple.com/en-us/HT201250"&gt;Time Machine&lt;/a&gt;, the built-in backup feature of OS X. This feature retains a copy of our of our files, as well as a feature that expresses how our system looked on any given day. These backups are synced via our wireless network and stored on two separate hard drives.&lt;/p&gt;
+
+&lt;h4&gt;Backblaze&lt;/h4&gt;
+
+&lt;p&gt;Time Machine is a terrific feature, but it is backing up the files to disks which reside at the same physical location as our computers. Thus, we require something that will allow us to backup the bulk of our files to remote storage.&lt;/p&gt;
+
+&lt;p&gt;This is where &lt;a target="_blank" href="http://lcrx.co/1vplTMd"&gt;Backblaze&lt;/a&gt; excels. For $50 a year, Backblaze will continuously backup an unlimited amount of data from you computer and any drives attached to it. This provides us access to multiple versions of our files through its online interface. Or, we may request the shipment of a hard drive with all of our data on it.&lt;/p&gt;
+
+&lt;p&gt;Although this backup process is not a fast as a locally attached device or Time Machine running on our local network, Backblaze provides us with a sound piece of mind knowing that our files are continuously being backed up off-site.&lt;/p&gt;
+
+&lt;h3&gt;Design Files&lt;/h3&gt;
+
+&lt;p&gt;We find it important to create an additional level of backup for our design files. Very often, these files can be quite large and a loss of the editable versions would require an inordinate amount of time to recreate.&lt;/p&gt;
+
+&lt;h4&gt;LayerVault&lt;/h4&gt;
+
+&lt;p&gt;For many years, we stored all of our working design files on Dropbox so that we could access them from anywhere. We have since replaced this with one of my most relied-upon online services, &lt;a target="_blank" href="https://layervault.com/r/3X2"&gt;LayerVault&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;LayerVault provides remote version control for all of our art files and a slew of other vital features. Years ago, we attempted to version-control our design files using Git, which resulted in oversized repositories. Thus, we were thrilled to discover that LayerVault offered this crucial service and provided file previews for each version. We no longer have to save versions of a file out as final-1, final-2, etc.&lt;/p&gt;
+
+&lt;p&gt;In addition to automatically versioning all of our design files, LayerVault allows us to share project files internally or with an external team. As a result, others involved in a project will always have access to the latest design files and assets.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, LayerVault retains all of our project files and allows us to leave and rejoin a project at any time. Thus, we are able to remove a folder of project files from our computer and rejoin the project at a later date. Doing so will, in turn, sync all of the design files for a project back to our computer.&lt;/p&gt;
+
+&lt;h4&gt;Vault Drive&lt;/h4&gt;
+
+&lt;p&gt;As an added layer of backup, I keep a large hard drive of every iamlos. project connected to my computer. As projects are completed, they are organized in folders by year. Additionally, font files and other assets are regularly archived on this drive. Since the drive is attached to my system, it is also backed up using Backblaze. While I imagine that this drive may one day be replaced by &lt;a target="_blank" href="http://aws.amazon.com/glacier/"&gt;Amazon Glacier&lt;/a&gt; or something similar, but this current setup has been working out very well.&lt;/p&gt;
+
+&lt;h3&gt;Development Files&lt;/h3&gt;
+
+&lt;p&gt;As our design process evolved from building static designs in traditional design applications to a process of iterating, prototyping and building interactive experiences with code, versioning and keeping backups of development files has become immensely important.&lt;/p&gt;
+
+&lt;h4&gt;Repositories&lt;/h4&gt;
+
+&lt;p&gt;All of our development projects are version-controlled using &lt;a target="_blank" href="http://git-scm.com/"&gt;Git&lt;/a&gt;. We host the majority of these repositories publicly and privately on &lt;a target="_blank" href="http://github.com"&gt;GitHub&lt;/a&gt; and utilize &lt;a target="_blank" href="https://bitbucket.org/"&gt;Bitbucket&lt;/a&gt; to host repositories for our smaller projects that we wish to keep private.&lt;/p&gt;
+
+&lt;h3&gt;Documents &amp;amp; Meeting Notes&lt;/h3&gt;
+
+&lt;p&gt;Documents for all projects are stored on &lt;a target="_blank" href="https://www.google.com/drive/"&gt;Google Drive&lt;/a&gt; and also archived along with all design files onto our Vault Drive upon the completion of each project. &lt;a target="_blank" href="http://lcrx.co/1DylAxU"&gt;Evernote&lt;/a&gt; is used to record all meeting notes, which are then shared internally.&lt;/p&gt;
+
+&lt;p&gt;If it is not obvious by now, our backup process is very important to us. Being able to provide files and assets years after a project is over allows us to continually exceed the expectations of the clients that partner with us. Feel free to &lt;a target="_blank" href="https://twitter.com/lacroixdesign"&gt;comment on Twitter&lt;/a&gt; if you have any questions or need clarity as to how we are using these tools and services.&lt;/p&gt;
+</content>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://iamlos.xyz/images/blog/always-have-a-solid-backup-plan/always-have-a-solid-backup-plan-7c631672.jpg"/>
+  </entry>
+  <entry>
+    <title>Announcing Our New Monthly Newsletter</title>
+    <link rel="alternate" href="http://iamlos.xyz/blog/announcing-our-new-monthly-newsletter/"/>
+    <id>http://iamlos.xyz/blog/announcing-our-new-monthly-newsletter/</id>
+    <published>2014-08-26T09:00:00-04:00</published>
+    <updated>2016-07-14T08:14:01-04:00</updated>
+    <author>
+      <name>iamlos</name>
+    </author>
+    <content type="html">&lt;p&gt;With our inaugural issue nearly complete and subsequent monthly issues already in the works, we are pleased to announce the launch of our new email newsletter. Our first issue will be sent out at the beginning of September and we will be regularly creating original content each month.&lt;/p&gt;
+
+&lt;p&gt;The format will allow us to approach concepts that do not necessarily fit within the structure of our blog or case studies. This will include a behind the scenes look at what we have been building to inspire new ideas and provide benefit to your business. With these curated briefings, we hope to give readers inside access to what we have been researching, designing, building and thinking. We hope this will be a welcome addition to your inbox and encourage you to &lt;a target="_blank" href="http://iamlos.xyz/newsletter/"&gt;subscribe here&lt;/a&gt;.
+ 
+We have worked with numerous clients over the years to design and develop successful email marketing campaigns. As a result, we have consistently been fascinated with finding better ways to connect to an audience through this medium.&lt;/p&gt;
+
+&lt;p&gt;It has long been a goal of ours to create our own newsletter. In fact, we have had a form to subscribe on our site for nearly four years. Yet, we have never once sent out a iamlos. Newsletter. During this time, we often wrestled with creating valuable email content that our readers would appreciate. As people who regularly receive large amounts of email, we never just wanted to contribute to the noise.&lt;/p&gt;
+
+&lt;p&gt;Our goal with this newsletter is to create something that is candid, genuine and beneficial to our readers. We chose a monthly schedule to ensure that our correspondence is never overwhelming and that the content delivered is relevant. &lt;/p&gt;
+
+&lt;p&gt;As with most things that we do, we also view the creation of our own newsletter as a great opportunity to experiment. We are excited to use &lt;a target="_blank" href="http://eepurl.com/v7UmP"&gt;Mailchimp’s&lt;/a&gt; wonderful tools and features for an internal project. It will also be exciting to evaluate how our readers are engaging with our content as we go along. Thus, we will welcome any feedback and will seek to continually improve with each issue. It is through this ongoing experiment that we look to gain more knowledge, insight and ideas that we will pass along to our current and future clients.&lt;/p&gt;
+
+&lt;p&gt;We will be sending out the first issue next week. Feel free to subscribe via the form below.&lt;/p&gt;
+
+&lt;figure class="figure-small"&gt;
+  &lt;form action="//carloscash.us13.list-manage.com/subscribe/post?u=9655b613aca9e00eed1fb25f8&amp;amp;id=0d89880a09"
+      id="mc-embedded-subscribe-form"
+      class="b-form b-newsletter-form"
+      name="mc-embedded-subscribe-form"
+      method="post"
+      target="_blank"&gt;
+  &lt;div class="form__required-indicator"&gt;
+    &lt;span class="input--required-asterisk"&gt;*&lt;/span&gt; indicates required
+  &lt;/div&gt;
+
+  &lt;div class="input--group theme--text"&gt;
+    &lt;label for="mce-EMAIL"&gt;Email Address  &lt;span class="input--required-asterisk"&gt;*&lt;/span&gt;&lt;/label&gt;
+    &lt;input type="email" value="" name="EMAIL" id="mce-EMAIL" class="input"&gt;
+  &lt;/div&gt;
+  &lt;div class="input--group theme--text"&gt;
+    &lt;label for="mce-FNAME"&gt;First Name&lt;/label&gt;
+    &lt;input type="text" value="" name="FNAME" id="mce-FNAME" class="input"&gt;
+  &lt;/div&gt;
+  &lt;div class="input--group theme--text"&gt;
+    &lt;label for="mce-LNAME"&gt;Last Name&lt;/label&gt;
+    &lt;input type="text" value="" name="LNAME" id="mce-LNAME" class="input"&gt;
+  &lt;/div&gt;
+
+  &lt;div style="position: absolute; left: -5000px;"&gt;
+    &lt;input type="text" name="b_cb74d792445887e99b0a36575_9875eb3767" tabindex="-1" value=""&gt;
+  &lt;/div&gt;
+
+  &lt;div class="b-form__actions"&gt;
+    &lt;button type="submit" name="subscribe" class="btn short"&gt;Join&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/form&gt;
+
+&lt;/figure&gt;
+</content>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://iamlos.xyz/images/blog/announcing-our-new-monthly-newsletter/announcing-our-new-monthly-newsletter-a6d6fd4a.jpg"/>
+  </entry>
+  <entry>
+    <title>Lessons Learned From Working Remotely</title>
+    <link rel="alternate" href="http://iamlos.xyz/blog/lessons-learned-from-working-remotely/"/>
+    <id>http://iamlos.xyz/blog/lessons-learned-from-working-remotely/</id>
+    <published>2014-08-19T09:00:00-04:00</published>
+    <updated>2016-07-08T06:40:52-04:00</updated>
+    <author>
+      <name>iamlos</name>
+    </author>
+    <content type="html">&lt;p&gt;From day one, my business has been a laboratory for experimentation. My time spent working in the music industry piqued my interest in entrepreneurship and small business ventures, but I initially knew very little about running a design studio. With no previous experience as a design employee, my company was a blank canvas for how a design studio could be run. Of course, this has resulted in plenty of mistakes and hard lessons but over time, I&amp;rsquo;ve continually welcomed the opportunity to experiment with all aspects of the business.&lt;/p&gt;
+
+&lt;p&gt;In the same manner that we use design thinking to deliver successful solutions for our clients, we believe that design thinking can be applied to the process that leads us to those results. Experimentation and iteration provides continual improvement in the way we operate. One such experiment meant moving my company nearly 500 miles from Nashville to Tampa. The relocation provided us with an opportunity to move out of our comfort zone in order to improve as designers and developers. It also made me grow as a business owner. Leaving a small market where my business was established and operating successfully to a much larger market where we would be virtually unknown offered its fair share of opportunities and risk.&lt;/p&gt;
+
+&lt;p&gt;To ease the transition, Michael remained in Nashville for a year and we began working remotely. Operating out of separate locations meant that we had to adjust our workflows to ensure that the quality of our work would not slip but rather improve as we began to enter a larger market. As with any new experiment, our foray into remote work had its bumps and bruises. Before long, we had adapted and found ourselves relishing in our newfound workflows.&lt;/p&gt;
+
+&lt;p&gt;Twelve months ago, this year-long experiment came to an end as Michael made the move to Tampa so that we could once again work within the same office. Now, with a full year of working beside one another, we have realized that the lessons learned from working remotely have made us better designers, developers and communicators.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We became better writers.&lt;/strong&gt;&lt;br&gt;
+Remote work eliminated the opportunity for casual conversation. Phone calls and video chats consume too much time so we chose to limit those to important occasions. Writing became our main source of communication. This required articulation with our thoughts in order to get our points across clearly and efficiently. Whether using email, project management software or our internal chat software, working remotely demanded deliberate thought when sharing our ideas and critiques.&lt;/p&gt;
+
+&lt;p&gt;In turn, this helped with client correspondence as well. We devised systems for reviewing and editing proposals or any long-form communications with clients. This required that initial contributor took the time to encompass all of the finer details of the project so that the reviewer would be able to provide edits that helped to clarify the material. Often, we would review documents several times to assure that our correspondence represented the same thoughtfulness that we give to our work.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We had to be more organized.&lt;/strong&gt;&lt;br&gt;
+When working remotely, little things that slip through the cracks can&amp;rsquo;t happen. Thus, we had to develop a bulletproof set of systems that we still use today. Completed tasks needed to be recorded so that both partners were keenly aware of what needed to be accomplished. Additionally, keeping files and resources organized was crucial for streamlined workflow at both offices.&lt;/p&gt;
+
+&lt;p&gt;We relied on our project management software to meet these needs. The tool that we were already using, &lt;a target="_blank" href="https://basecamp.com/"&gt;Basecamp&lt;/a&gt;, was our initial solution. Utilizing email as its notification channel, Basecamp allowed us to also bring clients into the project management software. This way, our clients could observe and communicate as their project was progressing. We have since progressed to using &lt;a target="_blank" href="https://trello.com/jameslacroix/recommend"&gt;Trello&lt;/a&gt; for all internal projects and have begun testing it on some client projects. Trello provides us with a more visual view of the project status. Additionally, tasks can proceed through a series of stages rather than simply complete or incomplete.&lt;/p&gt;
+
+&lt;p&gt;While working in remote offices, we still needed to have a channel for regular conversation &amp;mdash; enter chat service. We initially used &lt;a target="_blank" href="https://campfirenow.com/"&gt;Campfire&lt;/a&gt;, followed by &lt;a target="_blank" href="https://www.hipchat.com/"&gt;Hipchat&lt;/a&gt; and then happily landed on &lt;a target="_blank" href="https://slack.com/r/024l00bf-02533q4k"&gt;Slack&lt;/a&gt;. To this day, the majority of our conversations still take place in Slack. The service provides separate channels to keep our thoughts organized and the ability to search through these communications at a later time. Seamlessly working with third-party applications, Slack will notify us of Trello updates or Git commits. It will also parse the information from shared links which allow us to quickly share screenshots of ideas using &lt;a target="_blank" href="http://www.getcloudapp.com/"&gt;CloudApp&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We learned to be more decisive.&lt;/strong&gt;&lt;br&gt;
+One of the fallbacks of being a designer or developer is overthinking our solutions. We are all guilty of this from time to time. Self-doubt will sometimes creep in and minor iterations end up consuming hours of work only to return to where you first started. When working in the same office, it is quite convenient to distract a co-worker for feedback on every little step. In this circumstance, self-doubt begins to paralyze your workflow. Working remotely required proactive and confident decisions.&lt;/p&gt;
+
+&lt;p&gt;All in all, this experiment in working remotely has had a lasting, positive
+effect on our non-remote workflows. After working in the
+same office for a year now, we&amp;rsquo;ve found that these changes have improved the productivity and quality of our work.&lt;/p&gt;
+</content>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://iamlos.xyz/images/blog/lessons-learned-from-working-remotely/lessons-learned-from-working-remotely-fc634bf0.jpg"/>
+  </entry>
+  <entry>
+    <title>Doing More With Less</title>
+    <link rel="alternate" href="http://iamlos.xyz/blog/doing-more-with-less/"/>
+    <id>http://iamlos.xyz/blog/doing-more-with-less/</id>
+    <published>2014-05-27T12:30:00-04:00</published>
+    <updated>2016-07-08T06:40:52-04:00</updated>
+    <author>
+      <name>iamlos</name>
+    </author>
+    <content type="html">&lt;p&gt;After a couple of months of hard work, we recently launched a new site for iamlos. Odds are if you are reading this, you&amp;rsquo;ve seen the site and I hope that you are enjoying it.&lt;/p&gt;
+
+&lt;p&gt;I can not recall how many sites for our company have come before this one but I know that this is now the third one that I have worked on with Michael and as with each one before it, I believe that this one is the best yet. Prior to addition of Michael&amp;rsquo;s developer expertise, iamlos. consisted of just me. Initially, I had no desire to design for the web and never imagined that I would wish to.&lt;/p&gt;
+
+&lt;p&gt;My evolution to web designer came out of a necessity. Quite frankly, I needed a way for people to see the graphic design, illustration and identity work that I was doing. Armed with a handful of video tutorials, I began tearing apart WordPress templates in an attempt to mold them into some semblance of a portfolio site.&lt;/p&gt;
+
+&lt;p&gt;Every time that I discovered something new about the way people interacted with the web or how to develop for it, I would start over and construct a new portfolio site. As a learned to love the design process, this would typically involve coding through the night in order to see something come together by daylight. Sometimes these sites would last months and sometimes mere weeks.&lt;/p&gt;
+
+&lt;p&gt;With every new site, I sought to do more. I still remember the time that I decided to build an entire site solely because I had learned to animate an accordion menu with a JavaScript library. Every iteration was an experiment utilizing all of the knowledge that I had up to that point. I wanted to include it all.&lt;/p&gt;
+
+&lt;p&gt;This method continued with the addition of Michael to the team. Michael&amp;rsquo;s skill set and ideas brought super powers to everything that I had been attempting to do. The first iamlos. site that we built moved us away from WordPress and onto Expression Engine. This iteration focused on adding more functionality as well as aesthetic bells and whistles.&lt;/p&gt;
+
+&lt;p&gt;After that we, we created the predecessor to this site. It was the first responsive web site that we made for ourselves and began to showcase not only the visual nature of our projects but also the design thinking and process that went into them. Not fully content with any content management system available, this site was powered by a custom built web application to demonstrate our studio&amp;rsquo;s development skills.&lt;/p&gt;
+
+&lt;p&gt;This leads us to our most recent iteration. For the first time in nearly nine years, we did not attempt to add more and sought to reduce wherever possible. Although we are still quite proud of our custom content management system, we abandoned it due to lack of necessity. When both members of the team are comfortable with HTML &amp;amp; CSS, a content management system is overkill and removing it increases the speed of the site. Additionally, we reduced the copy and amount of pages to provide a simpler user experience. Design should facilitate rather than get in the way of the stories that we always want to share through our site.&lt;/p&gt;
+
+&lt;p&gt;By having less, we have the capability to iterate more quickly. Rather than wait another year or two to create a new site, changes can be quickly made as we examine the interactions taking place. I would trust that the site will not look exactly the same next month as it does today. We are excited about what we have learned and planned to share more specific details about it in the coming weeks and months. We hope that you find delight in the new site and more importantly the work that we have done for our clients.&lt;/p&gt;
+</content>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://iamlos.xyz/images/blog/doing-more-with-less/doing-more-with-less-ab62455b.jpg"/>
+  </entry>
+</feed>
