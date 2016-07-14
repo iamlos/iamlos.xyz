@@ -1,0 +1,21 @@
+.section-title {
+  color: $grey-light;
+  font-family: $typeface-sans;
+  font-size: 1em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title-link {
+  a { text-decoration: none; }
+  a:hover { text-decoration: underline; }
+}
+
+.title--subheading {
+  font-family: $typeface-serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 1.375;
+}

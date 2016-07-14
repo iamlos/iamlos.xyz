@@ -1,0 +1,78 @@
+@import "blocks/containers";
+
+.s-home-projects {
+  text-align: center;
+
+  .b-section {
+    padding-bottom: 0;
+  }
+
+  .section-title {
+    margin: 0 auto;
+  }
+} // .s-home-projects
+
+.s-home-projects__items {
+  $item: '.b-basic-card';
+  $content: '.b-basic-card__content';
+  $logo: "#{$content} > a";
+
+  #{$item} {
+    min-height: 15em;
+    padding: $page-gutter;
+    margin: 0 auto 1px;
+    background-color: $black;
+  }
+
+  #{$item}:last-child {
+    margin-bottom: 0;
+  }
+
+  #{$content} {
+    width: 100%;
+    margin: auto;
+  }
+
+  #{$logo} {
+    display: block;
+    width: 100%;
+    max-width: 10em;
+    margin: auto;
+  }
+
+  .flexbox & {
+    #{$item} {
+      @include display(flex);
+      @include align-items(center);
+      @include justify-content(center);
+    }
+
+    @include media(768px) {
+      @include display(flex);
+      @include flex-wrap(wrap);
+
+      #{$item} {
+        @include flex(0.5 0.4 40%);
+        min-height: 17em;
+        margin-bottom: 0;
+      }
+
+      #{$item}:first-child {
+        @include flex(2 2.0 100%);
+        margin-bottom: 1px;
+
+        #{$logo} {
+          max-width: 15em;
+        }
+      } // first-child
+
+      #{$item}:last-child {
+        margin-left: 1px;
+      }
+    } // 768px
+
+    @include media(1000px) {
+      #{$item} { min-height: 20em; }
+    }
+  } // .flexbox &
+} // .s-home-projects__items

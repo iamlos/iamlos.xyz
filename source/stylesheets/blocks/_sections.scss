@@ -1,0 +1,128 @@
+/*
+* ------------------------------------------------
+* Page
+* ------------------------------------------------
+*/
+
+.b-page {
+  position: relative;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background: $white;
+}
+
+/*
+* ------------------------------------------------
+* Section
+* ------------------------------------------------
+*/
+
+.b-section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  > header {
+    margin: 1em auto 3em;
+  }
+} // .b-section
+
+/*
+* ------------------------------------------------
+* Basic section header
+* ------------------------------------------------
+*/
+
+.b-section--basic-header {
+  padding-top: $header-offset + 1em;
+  margin-right: auto;
+  margin-left: auto;
+
+  > h1 {
+    margin-top: 0.5em;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  > h2 {
+    @include page-container(20em, 20em);
+    padding-bottom: 2em;
+    margin-bottom: 0;
+    font-family: $typeface-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: center;
+  }
+} // .b-section--basic-header
+
+/*
+* ------------------------------------------------
+* Text component
+* ------------------------------------------------
+*/
+
+.b-text-component {
+  position: relative;
+  padding: 2.5em 0;
+  background-color: $white;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  .is-callout {
+    font-size: 1.25em;
+    text-align: center;
+  }
+
+  &.has-fixed-bg {
+    background-attachment: fixed;
+  }
+
+  &.has-bg-image {
+    color: $white;
+  }
+} // .b-text-component
+
+/*
+* ------------------------------------------------
+* Split component
+* ------------------------------------------------
+*/
+
+.b-split-component {
+  display: table;
+  width: 100%;
+  text-align: center;
+
+  article {
+    padding: 4em 0;
+  }
+
+  aside {
+    min-height: 25em;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: inherit;
+  }
+
+  .b-split-component__text {
+    font-size: 1.25em;
+    font-style: italic;
+  }
+
+  &.has-fixed-bg {
+    background-attachment: fixed;
+  }
+} // .b-split-component
+
+@mixin split-component-desktop-styles {
+  aside,
+  article {
+    display: table-cell;
+    width: 50%;
+    min-height: 0;
+  }
+} // $breakpoint-ipad

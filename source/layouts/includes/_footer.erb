@@ -1,0 +1,36 @@
+<div id="subscribe" class="s-footer-signup">
+  <div class="s-footer-signup__inner will-animate fadeIn"
+        data-wow-duration="0.7s" data-wow-delay="0.2s">
+    <h3><%= icon 'e600' %> Subscribe for Insider Access</h3>
+    <p>Receive monthly briefings on what I have been researching, marketing, building and profiting with.</p>
+    <form method="post"
+          target="_blank"
+          name="mc-embedded-subscribe-form"
+          action="//carloscash.us13.list-manage.com/subscribe/post?u=9655b613aca9e00eed1fb25f8&amp;id=0d89880a09">
+      <label for="mce-EMAIL" class="visuallyhidden">Email Address</label>
+      <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="you@example.com"><%#
+      %><button type="submit">Join</button>
+    </form>
+  </div>
+</div>
+
+<footer id="footer" class="s-footer">
+  <ul class="social-icons-list s-footer__social">
+    <%= partial "components/social-icons" %>
+  </ul>
+  <p class="s-footer__copyright">
+    © <%= Time.now.year %> iamlos.
+  </p>
+</footer>
+
+<nav id="supplementary-nav" class="s-footer-nav">
+  <ul>
+    <li class="top-row"><a href="/#welcome">Home</a></li>
+    <li class="top-row"><a href="<%= data.urls.work %>">Work</a></li>
+    <li class="top-row"><a href="<%= data.urls.resume %>">Resume</a></li>
+    <li class="top-row"><a href="<%= data.urls.services %>" data-close-menu>Services</a></li>
+    <li><a href="<%= data.urls.team %>" data-close-menu>Team</a></li>
+    <li><a href="<%= data.urls.blog %>">Blog</a></li>
+    <li><a href="#menu" data-toggle-nav>Contact</a></li>
+  </ul>
+</nav>

@@ -1,0 +1,26 @@
+<div class="b-hero-image image--bg-holder <%= classes %>">
+
+  <div class="image--bg <%= theme %>"
+        <% if image %>
+          style="background-image: url('<%= image %>');"
+        <% end %>>
+  </div>
+
+  <% if block_given? %>
+    <% if replace %>
+
+      <%= yield %>
+
+    <% else %>
+
+      <div class="l-constrained">
+        <div class="b-hero-image__content will-animate fadeInUp"
+             data-wow-duration="0.7s"
+             data-wow-delay="0.2s">
+          <%= yield %>
+        </div>
+      </div>
+
+    <% end %>
+  <% end %>
+</div>

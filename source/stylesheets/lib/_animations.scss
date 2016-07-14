@@ -1,0 +1,38 @@
+/*
+ * ------------------------------------------------
+ * Fade in at 50%
+ * ------------------------------------------------
+ */
+
+@include keyframes(fadeIn50) {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@mixin fadeInOnPageLoad($time: 0.7s) {
+  @include animation(fadeIn50 $time ease-in);
+}
+
+/*
+ * ------------------------------------------------
+ * Grow horizontally
+ * ------------------------------------------------
+ */
+
+@include keyframes(growHorizontal) {
+  0% {
+    opacity: 0.5;
+    width: 0;
+  }
+  100% {
+    opacity: 1;
+    width: 100%;
+  }
+}

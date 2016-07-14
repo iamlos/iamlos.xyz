@@ -1,0 +1,53 @@
+$home-services--breakpoint: 700px;
+
+.s-services {
+  padding: 3em $page-gutter;
+  background: image-url('backgrounds/home-welcome.jpg') fixed center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  text-align: center;
+
+  .b-section {
+    padding: 0;
+  }
+
+  header {
+    margin-top: 0;
+  }
+
+  h1 {
+    color: $white;
+  }
+
+  @include media-ie($home-services--breakpoint) {
+    padding-top: 6em;
+    padding-bottom: 6em;
+  }
+} // .s-services
+
+.s-services__lists {
+  max-width: 19em;
+  margin: 0 auto 0;
+  border-radius: 8px;
+  color: $white;
+  font-size: 87.5%;
+
+  article {
+    margin-bottom: 3em;
+  }
+
+  article:last-child {
+    margin-bottom: 0;
+  }
+
+  @include media-ie($home-services--breakpoint) {
+    @include row;
+    @include display(flex);
+    max-width: 60em;
+
+    article {
+      @include span-columns(4);
+      margin-bottom: 0;
+    }
+  } // @media 568px
+} // .s-services__lists

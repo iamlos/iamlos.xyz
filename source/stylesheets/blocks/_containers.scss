@@ -1,0 +1,41 @@
+// General Containers
+
+$containers-bp: $breakpoint-desktop;
+
+@mixin page-container($width1: none, $width2: none, $bp: $containers-bp) {
+  @include row;
+  width: 100%;
+  max-width: $width1;
+  padding-right: $page-gutter;
+  padding-left: $page-gutter;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media-ie($bp) {
+    max-width: $width2;
+  }
+} // page-container
+
+.l-constrained {
+  // 30em, 1200px
+  @include page-container($layout-width-medium, $max-width);
+}
+
+.l-constrained-small {
+  // 20em, 20em
+  @include page-container($layout-width-small, $layout-width-small);
+}
+
+.l-constrained-medium {
+  // 30em, 30em
+  @include page-container($layout-width-medium, $layout-width-medium);
+}
+
+.l-constrained-large {
+  // 30em, 40em
+  @include page-container($layout-width-large, $layout-width-large);
+}
+
+.l-unconstrained {
+  @include page-container;
+}

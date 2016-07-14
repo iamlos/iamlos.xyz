@@ -1,0 +1,16 @@
+<%#
+  img = {
+    src: "path/to/img.jpg",
+    alt: "An alt title"
+  }
+%>
+
+<ul class="b-slideshow" data-slides>
+
+  <% slides.each_with_index do |img, i| %>
+    <li id="slide-<%= i %>" class="b-carousel">
+      <%= image_tag img[:src], class: "image-fullwidth", alt: img[:alt] %>
+    </li>
+  <% end %>
+
+</ul>

@@ -1,0 +1,28 @@
+<%
+YEAR_IN_SECONDS = 31536000
+site_url = "http://iamlos.xyz/"
+src_posts = blog("blog").articles
+
+posts = src_posts.reject {|a| a.date < Time.now - YEAR_IN_SECONDS}.map do |post|
+  author = page_author(post)
+  {
+    id: post.url,
+    title: post.title,
+    description: page_description(post),
+    url: URI.join(site_url, post.url).to_s,
+    path: post.url,
+    published: post.date.to_time.iso8601,
+    updated: File.mtime(post.source_file).iso8601,
+    author: {
+      name: author.name,
+      url: URI.join(site_url, team_member_path(author)).to_s,
+      path: team_member_path(author),
+      thumbnail: team_member_avatar_path(author)
+    },
+    content: post.body,
+    thumbnail: page_image(post)
+  }
+end
+%>
+
+<%= posts.to_json %>

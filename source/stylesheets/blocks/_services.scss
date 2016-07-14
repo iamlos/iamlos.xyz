@@ -1,0 +1,32 @@
+.b-service-list {
+  position: relative;
+
+  header {
+    margin-bottom: 1.5em;
+  }
+
+  .image-icon {
+    max-width: 5em;
+    margin: 0 auto 2em;
+  }
+
+  h2 {
+    display: inline-block;
+    padding-bottom: 0.5em;
+    margin-bottom: 0;
+    border-bottom: 1px solid $white;
+    font-size: 0.9375em;
+    font-weight: 800;
+    line-height: 1.25;
+    text-transform: uppercase;
+  }
+
+  ul {
+    font-size: 1.25em;
+  }
+
+  li {
+    font-style: italic;
+    margin-top: 0.75em;
+  }
+} // .b-service-list

@@ -1,0 +1,91 @@
+/*
+ * ------------------------------------------------
+ * Header
+ * ------------------------------------------------
+ */
+.s-header {
+  @include clearfix;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: $header-height;
+  padding: 0 $header-padding;
+  margin-top: $header-padding;
+  color: $white;
+
+  > * {
+    height: 100%;
+  }
+} // .s-header
+
+.s-header__logo {
+  position: relative;
+  z-index: 2;
+  float: left;
+  height: 100%;
+  @include fadeInOnPageLoad;
+}
+
+/*
+ * ------------------------------------------------
+ * Nav
+ * ------------------------------------------------
+ */
+
+.s-header-nav {
+  position: relative;
+  float: right;
+  z-index: 10;
+  visibility: hidden;
+  opacity: 0;
+  max-width: 60%;
+  color: $black;
+  font-family: $typeface-sans;
+
+  .theme--light & {
+    color: $white;
+  }
+
+  ul {
+    @include clearfix;
+  }
+
+  li {
+    float: left;
+    margin-left: 1em;
+  }
+
+  li:first-child {
+    margin-left: 0;
+  }
+
+  a {
+    position: relative;
+    display: block;
+    padding-bottom: 0.5em;
+    font-size: 0.8125em;
+    font-weight: $bold-weight;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  a:after {
+    @include position(absolute, null null 0 0);
+    width: 0;
+    height: 3px;
+    background: $orange;
+    content: '';
+    @include transition(width 0.2s ease-out);
+  }
+
+  a:hover:after {
+    width: 100%;
+  }
+
+  @include media-ie($nav-breakpoint) {
+    visibility: visible;
+    opacity: 1;
+  }
+} // .s-header-nav

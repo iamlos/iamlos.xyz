@@ -1,0 +1,85 @@
+/*
+* ------------------------------------------------
+* Posts
+* ------------------------------------------------
+*/
+
+.s-posts-index {
+  .b-post-box {
+    min-height: 18em;
+    padding-bottom: 2em;
+    margin-bottom: 1px;
+  }
+
+  @include media(500px) {
+    .b-post-box { min-height: 14em; }
+  }
+
+  @include media(900px) {
+    .b-post-box { min-height: 20em; }
+  }
+} // .s-posts-index
+
+/*
+* ------------------------------------------------
+* Posts - (flexbox)
+* ------------------------------------------------
+*/
+
+.flexbox .s-posts-index {
+  @include display(flex);
+  @include flex-wrap(wrap);
+
+  .b-post-box {
+    width: 100%;
+  }
+
+  @include media(900px) {
+    .b-post-box {
+      @include flex(0.5 0.4 40%);
+      min-height: 20em;
+    }
+
+    .b-post-box__meta {
+      margin: 0 0 0 auto;
+    }
+
+    .b-post-box:nth-child(3n+1) {
+      @include flex(2 2.0 100%);
+      margin-bottom: 1px;
+
+      .b-post-box__meta {
+        max-width: $max-width;
+        margin: 0 auto;
+      }
+    } // first-child
+
+    .b-post-box:nth-child(3n+3) {
+      margin-left: 1px;
+      .b-post-box__meta { margin: 0 auto 0 0; }
+    }
+  } // 900px
+
+  @include media($max-width-media) {
+    $pad: $page-gutter * 2;
+
+    .b-post-box {
+      padding: $pad;
+    }
+
+    .b-post-box__meta {
+      max-width: $max-width / 2 - $pad;
+    }
+  } // $max-width
+} // flexbox
+
+/*
+* ------------------------------------------------
+* Pagination
+* ------------------------------------------------
+*/
+
+.s-posts-index-pagination {
+  margin-top: -1px;
+  background: $off-white;
+}

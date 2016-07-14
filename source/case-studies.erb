@@ -1,0 +1,30 @@
+---
+title: "Case Studies"
+long_title: "Web Design and Web Development Case Studies"
+tagline: "We partner with smart businesses seeking forward-thinking solutions to help them achieve their goals."
+---
+
+<div class="b-section--basic-header">
+  <h1 class="will-animate fadeInDown" data-wow-duration="0.7s" data-wow-delay="0.2s">
+    Case Studies
+  </h1>
+  <h2 class="will-animate fadeIn" data-wow-duration="0.7s" data-wow-delay="0.2s">
+    <%= current_page.data.tagline %>
+  </h2>
+</div>
+
+<section class="s-case-studies">
+  <% case_studies = [
+      "Integrations.io",
+      "CANC3R",
+      "1 Page Sites",
+  ] %>
+  <% case_studies.each do |case_study| %>
+    <%= component "case-study-preview",
+          item: find_case_study_by_title(case_study) %>
+  <% end %>
+</section>
+
+<%= partial "partials/cta_section", locals: {
+      text: "Let's create a groundbreaking website or product experience together."
+} %>

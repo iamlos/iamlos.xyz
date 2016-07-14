@@ -1,0 +1,14 @@
+.link-bright {
+  color: $white;
+  &:hover { color: $white; }
+}
+
+.link-vivid {
+  color: $orange;
+  &:hover { color: $orange; }
+}
+
+.link-plain-til-hover {
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+}

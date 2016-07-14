@@ -1,0 +1,85 @@
+.s-footer-signup {
+  $input-height: 3em;
+  $input-ratio: 0.875;
+  padding: 3.5em 0;
+  background: $black-40;
+  color: $white;
+
+  h3 {
+    margin-bottom: 1em;
+    font-size: 1em;
+  }
+
+  p {
+    margin-bottom: 2.5em;
+    margin-bottom: 2rem;
+    font-size: 0.875em;
+    font-style: italic;
+  }
+
+  [data-icon] {
+    vertical-align: baseline;
+    margin-right: 0.25em;
+    font-size: 1.5em;
+  }
+
+  input[type="email"] {
+    vertical-align: middle;
+    max-width: 15em;
+    height: $input-height;
+    border: none;
+    border-radius: $border-radius 0 0 $border-radius;
+    background: $black-30;
+    color: $white;
+    font-size: #{$input-ratio}em;
+
+    @include placeholder {
+      color: rgba($white, 0.5);
+    }
+
+    &:focus {
+      @include placeholder { color: rgba($white, 0.2); }
+    }
+  } // input
+
+  button {
+    $button-ratio: 0.75;
+    $height: $input-height * $input-ratio / $button-ratio;
+    @include btn-base;
+    height: $height;
+    border: none;
+    border-radius: 0 $border-radius $border-radius 0;
+    background: $orange;
+    color: $white;
+    font-family: $typeface-sans;
+    font-size: #{$button-ratio}em;
+    font-weight: $bold-weight;
+  }
+
+  button:hover {
+    background: $orange-60;
+  }
+  button:active {
+    background: $orange-70;
+  }
+
+  @include media(400px) {
+    input[type="email"] { max-width: 20em; }
+  }
+
+  .flexbox & form {
+    @include display(flex);
+    @include align-items(stretch);
+    @include flex-direction(row);
+    @include justify-content(flex-start);
+
+    input[type="email"] {
+      @include flex(1);
+      max-width: none;
+    }
+  } // flexbox
+} // .s-footer-signup
+
+.s-footer-signup__inner {
+  @include page-container(25em, 25em);
+}

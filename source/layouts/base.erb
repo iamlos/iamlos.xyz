@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head>
+  <!--
+  _
+  _
+  _
+  _  Designed & Developed by iamlos | Marketing &amp; Development Blog
+  _    http://iamlos.xyz
+  _
+  _
+  -->
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <%= partial "layouts/includes/seo_meta" %>
+
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="application-name" content="&nbsp;">
+  <link rel="alternate" type="application/atom+xml" title="iamlos | Marketing &amp; Development Blog" href="/feed.xml">
+  <link rel="publisher" href="https://plus.google.com/xxxxxx">
+
+  <!-- Update your html tag to include the itemscope and itemtype attributes. -->
+  <html itemscope itemtype="http://schema.org/Article">
+
+  <!-- Place this data between the <head> tags of your website -->
+  <title><%= data.site.title %></title>
+  <meta name="description" content="<%= page_description %>" />
+
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="@publisher_handle">
+  <meta itemprop="description" content="<%= page_description %>">
+  <meta itemprop="image" content="<%= page_social_image %>">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@publisher_handle">
+  <meta name="twitter:title" content="<%= page_long_title %>">
+  <meta name="twitter:description" content="<%= page_description %>">
+  <meta name="twitter:creator" content="@author_handle">
+  <!-- Twitter summary card with large image must be at least 280x150px -->
+  <meta name="twitter:image:src" content="<%= page_social_image %>">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="<%= page_long_title %>" />
+  <meta property="og:type" content="<%= page_fb_type %>" />
+  <meta property="og:url" content="http://iamlos.xyz/" />
+  <meta property="og:image" content="<%= page_social_image %>" />
+  <meta property="og:description" content="<%= page_description %>" />
+  <meta property="og:site_name" content="<%= data.site.title %>" />
+
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#14191f">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="theme-color" content="#14191f">
+
+  <%# Stylesheets %>
+  <%= stylesheet_link_tag "main" %>
+  <link rel="stylesheet" type="text/css" href="//cloud.typography.com/806434/723404/css/fonts.css">
+
+  <%# Modernizr %>
+  <%= javascript_include_tag  "modernizr" %>
+
+  <%# Google Analytics %>
+  <% if data.site.google_analytics_id && data.site.google_analytics_domain %>
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', '<%= data.site.google_analytics_id %>', 'auto');
+      ga('send', 'pageview', {
+        'page': location.pathname + location.search  + location.hash
+      });
+    </script>
+  <% end %>
+
+  <%# Heap Analytics %>
+<!--   <% if data.site.heap_analytics_id %>
+    <script type="text/javascript">
+      window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var n=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(n?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(a,o);for(var r=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["clearEventProperties","identify","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=r(p[c])};
+      heap.load("<%= data.site.heap_analytics_id %>");
+    </script>
+  <% end %> -->
+</head>
+
+<body>
+  <div id="content">
+    <%= partial "layouts/includes/header" %>
+    <div class="page-content" id="page-content">
+      <%= yield %>
+    </div>
+    <%= partial "layouts/includes/footer" %>
+    <% if content_for? :post_footer %>
+      <%= yield_content :post_footer %>
+    <% end %>
+    <div class="b-menu-body-overlay"></div>
+  </div>
+
+  <%= partial "templates/posts_boxes" %>
+
+  <%# JavaScripts %>
+  <% jquery = asset_url("javascripts/vendor/jquery-1.11.2.min.js") %>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="<%= jquery %>"><\/script>')</script>
+  <%= javascript_include_tag  "main" %>
+
+<!--   <% if data.site.clicky_analytics_id %>
+    <script type="text/javascript">
+      var clicky_custom = clicky_custom || {};
+      clicky_custom.title = document.title.replace(' | iamlos | Marketing &amp; Development Blog', '');
+
+      var clicky_site_ids = clicky_site_ids || [];
+      clicky_site_ids.push(<%= data.site.clicky_analytics_id %>);
+      (function() {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = '//static.getclicky.com/js';
+        ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+      })();
+    </script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100733305ns.gif" /></p></noscript>
+  <% end %> -->
+
+  <%# Knowledge Graph %>
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "url": "http://iamlos.xyz",
+    "sameAs" : [ "<%= data.urls.facebook %>",
+      "<%= data.urls.twitter %>",
+      "<%= data.urls.linkedin %>",
+      "<%= data.urls.google_plus %>"],
+    "logo": "http://iamlos.xyz/carlosbald.png",
+    "contactPoint" : [
+    { "@type" : "ContactPoint",
+      "telephone" : "+1-813-434-3045",
+      "contactType" : "customer service"
+    } ]
+  }
+  </script>
+
+  <%# Twitter %>
+  <script>
+    window.twttr = (function (d, s, id) {
+      var t, js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id; js.src= "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+    }(document, "script", "twitter-wjs"));
+  </script>
+  <%# Purechat  %>
+  <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '6a469848-45d6-4440-bbc0-8352cb572e8b', f: true }); done = true; } }; })();</script>
+
+
+</body>
+</html>

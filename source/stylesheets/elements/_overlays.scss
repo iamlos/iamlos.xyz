@@ -1,0 +1,47 @@
+@mixin overlay-style {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  border-radius: inherit;
+}
+
+@mixin centered-content-style {
+  @include display(flex);
+  @include align-items(center);
+  @include justify-content(center);
+  text-align: center;
+}
+
+.overlay__wrap {
+  position: relative;
+  border-radius: inherit;
+}
+
+.overlay__fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay__content {
+  display: block;
+  width: 100%;
+}
+
+.overlay__centered {
+  @include overlay-style;
+  @include centered-content-style;
+}
+
+.overlay__centered-dark {
+  @include overlay-style;
+  @include centered-content-style;
+  background: rgba($black, 0.8);
+  color: $white;
+}

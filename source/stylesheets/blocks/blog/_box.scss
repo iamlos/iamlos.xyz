@@ -1,0 +1,23 @@
+.b-post-box {
+  padding: $page-gutter;
+  background: $black;
+
+  .b-post-box__meta {
+    position: relative;
+    display: block;
+    color: $white;
+    text-decoration: none;
+    text-shadow: 1px 1px rgba(0,0,0, 0.2);
+
+    h1,
+    h2,
+    time {
+      color: inherit;
+    }
+
+    h2 {
+      max-width: 45em;
+      margin-top: 2em;
+    }
+  } // .b-post-box__meta
+} // .b-post-box

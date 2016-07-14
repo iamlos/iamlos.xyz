@@ -1,0 +1,41 @@
+.s-footer-nav {
+  border-bottom: 0.125em solid $orange;
+  background: $black;
+  color: $white;
+  font-family: $typeface-sans;
+  text-align: center;
+  text-transform: uppercase;
+
+  ul {
+    @include clearfix;
+    font-size: 0.75em;
+    line-height: 0;
+    vertical-align: bottom;
+  }
+
+  li {
+    float: left;
+    width: 33.333333333%;
+  }
+
+  a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background: $orange;
+    text-decoration: none;
+  }
+
+  @include media-ie(480px) {
+    ul {
+      display: inline-block;
+    }
+
+    li {
+      width: auto;
+    }
+  } // @include media-ie(500px)
+} // .s-footer__nav

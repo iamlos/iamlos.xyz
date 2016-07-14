@@ -1,0 +1,93 @@
+.b-post-preview {
+  h1,
+  h2 {
+    a { text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  }
+} // .b-post-preview
+
+.b-post-header,
+.b-post-preview,
+.b-post-cover-header {
+  @include underline-links-on-hover-only;
+
+  h1 {
+    margin-bottom: 0;
+    font-size: 1.5em;
+  }
+
+  h2 {
+    margin: 0.5em 0 0;
+    font-family: $typeface-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  time {
+    display: block;
+    margin-top: 0.5em;
+    font-family: $typeface-sans;
+    font-size: 0.75em;
+    text-transform: uppercase;
+  }
+}
+
+.b-post-header,
+.b-post-preview {
+  h2 {
+    color: $grey-dark;
+  }
+
+  time,
+  .author {
+    color: $grey-dark;
+  }
+}
+
+.b-post-header,
+.b-post-cover-header {
+  time {
+    margin-top: 3em;
+  }
+
+  h2 {
+    margin-top: 1em;
+  }
+
+  .author {
+    margin-top: 0.5em;
+    font-size: 0.75em;
+  }
+
+  hr {
+    margin-top: 2em;
+  }
+}
+
+.b-post-cover-header__content {
+  text-align: left;
+  text-shadow: 1px 1px rgba(0,0,0, 0.15);
+}
+
+.b-post-header {
+  position: relative;
+  padding: 2em 0;
+  background: $off-white;
+
+  &.theme--no-image {
+    padding-top: $header-offset + 2em;
+  }
+} // .b-post-header
+
+.b-post-body {
+  position: relative;
+  padding-top: 2em;
+  margin: 0 auto 2em;
+  background: $white;
+}
+
+.b-post-cta {
+  margin: 2em auto 0;
+  text-align: center;
+}

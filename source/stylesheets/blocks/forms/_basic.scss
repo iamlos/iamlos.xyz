@@ -1,0 +1,48 @@
+.b-form {
+  .form__required-indicator {
+    margin: 2em auto;
+    &:first-child { margin-top: 0; }
+  }
+
+  fieldset {
+    margin-bottom: 1.5em;
+  }
+
+  fieldset.input--group {}
+
+  textarea {
+    min-height: 8em;
+  }
+
+  .input--group {
+    margin-bottom: 1.5em;
+  }
+
+  .input--group.theme--text {
+    max-width: 20em;
+  }
+
+  .input--group:last-child,
+  .input--radio:last-child,
+  .input--checkbox:last-child {
+    margin-bottom: 0;
+  }
+
+  .input--help {
+    margin-bottom: 1em;
+  }
+
+  .input--radio,
+  .input--checkbox {
+    margin-bottom: 0.25em;
+
+    #{$all-text-inputs} {
+      max-width: 10em;
+      margin-left: 0.5em;
+    }
+  } // .input--checkbox, .input--radio
+
+  .input--error-msg {
+    margin-top: 0.5em;
+  }
+} // .b-form

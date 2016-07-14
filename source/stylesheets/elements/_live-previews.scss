@@ -1,0 +1,80 @@
+.live-preview {
+  position: relative;
+  display: none;
+  margin: 0 auto;
+
+  img {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+
+  > section {
+    position: absolute;
+    overflow-y: scroll;
+    overflow: -moz-scrollbars-none;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar { width: 0 !important }
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  &.run-animation {
+    @include animation(fadeInUp 0.7s ease);
+  }
+
+  &[data-live-preview="mobile"] {
+    display: block;
+    width: 20em;
+
+    [data-live-preview-img="mobile"] {
+      display: block;
+    }
+
+    > section {
+      top: 12%;
+      left: 8%;
+      width: 84%;
+      height: 76%;
+    }
+  } // &[data-live-preview="mobile"]
+
+
+  &[data-live-preview="tablet"] {
+    display: block;
+    width: 47.407407407em;
+
+    [data-live-preview-img="tablet"] {
+      display: block;
+    }
+
+    > section {
+      top: 10%;
+      left: 9.5%;
+      width: 81%;
+      height: 80%;
+    }
+  } // &[data-live-preview="tablet"]
+
+  &[data-live-preview="desktop"] {
+    display: block;
+    width: 100%;
+    max-width: 65em;
+
+    [data-live-preview-img="desktop"] {
+      display: block;
+    }
+
+    > section {
+      top: 5.75%;
+      left: 9.5%;
+      width: 81%;
+      height: 84.75%;
+    }
+  } // &[data-live-preview="desktop"]
+
+} // .live-preview

@@ -1,0 +1,37 @@
+/*
+* ------------------------------------------------
+* Post
+* ------------------------------------------------
+*/
+
+.s-post {
+  .b-post-inline-header {
+    margin: 0 -5em;
+    @include media-ie(600px) { margin: 0 auto; }
+  }
+
+  .b-simple-callout {
+    margin: 2em auto;
+  }
+
+  .b-author-meta {
+    padding-top: 2.5em;
+    margin: 2.5em auto;
+    border-top: 1px solid $medium-white;
+  }
+} // .s-post
+
+/*
+* ------------------------------------------------
+* Call to action
+* ------------------------------------------------
+*/
+
+.s-post--cta {
+  padding: 4em 0;
+  background: $off-white;
+
+  .b-callout--cta-section {
+    margin: 0 auto;
+  }
+} // .s-post--cta

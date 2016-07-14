@@ -1,0 +1,34 @@
+- wrap_layout :base do
+  - if current_page.data.color
+    css:
+      .b-text p a,
+      .b-text p a:focus,
+      .b-text p a:visited {
+        color: #{current_page.data.color};
+      }
+      .b-text p a:hover {
+        color: #{current_page.data.color};
+      }
+      .btn,
+      .btn:focus,
+      .btn:visited {
+        border-color: #{current_page.data.color};
+        color: #{current_page.data.color};
+      }
+      .btn:hover,
+      .btn:active {
+        border-color: #{current_page.data.color};
+        background-color: #{current_page.data.color};
+        color: #fff;
+      }
+      .btn.animate-faux-progress:after {
+        background: #{current_page.data.color};
+      }
+
+  = hero_image case_study_bg_path do
+    .l-constrained-large.s-case-study__hero-content
+      .logo__case-study.will-animate.fadeInDown(data-wow-duration="0.7s" data-wow-delay="0.2s")
+        = case_study_logo
+      h1.title--subheading.will-animate.fadeInUp(data-wow-duration="0.7s" data-wow-delay="0.2s")
+        = current_page.data.tagline
+  .s-case-study = yield
