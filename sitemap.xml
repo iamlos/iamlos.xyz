@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://iamlos.xyz/blog/always-have-a-solid-backup-plan/</loc>
-    <lastmod>2016-07-12</lastmod>
-  </url>
-  <url>
-    <loc>http://iamlos.xyz/blog/announcing-our-new-monthly-newsletter/</loc>
+    <loc>https://iamlos.xyz/blog/always-have-a-solid-backup-plan/</loc>
     <lastmod>2016-07-14</lastmod>
   </url>
   <url>
-    <loc>http://iamlos.xyz/blog/doing-more-with-less/</loc>
-    <lastmod>2016-07-08</lastmod>
-  </url>
-  <url>
-    <loc>http://iamlos.xyz/blog/far-from-finished/</loc>
+    <loc>https://iamlos.xyz/blog/announcing-our-new-monthly-newsletter/</loc>
     <lastmod>2016-07-14</lastmod>
   </url>
   <url>
-    <loc>http://iamlos.xyz/blog/lessons-learned-from-working-remotely/</loc>
+    <loc>https://iamlos.xyz/blog/doing-more-with-less/</loc>
     <lastmod>2016-07-08</lastmod>
   </url>
   <url>
-    <loc>http://iamlos.xyz/blog/recommended-reading-insites-the-book/</loc>
-    <lastmod>2016-07-08</lastmod>
-  </url>
-  <url>
-    <loc>http://iamlos.xyz/blog/setting-goals-for-your-web-project/</loc>
-    <lastmod>2016-07-08</lastmod>
-  </url>
-  <url>
-    <loc>http://iamlos.xyz/blog/streamlining-our-proposal-writing-process/</loc>
-    <lastmod>2016-07-12</lastmod>
-  </url>
-  <url>
-    <loc>http://iamlos.xyz/blog/what-does-success-look-like/</loc>
-    <lastmod>2016-07-08</lastmod>
-  </url>
-  <url>
-    <loc>http://iamlos.xyz/blog/why-choose-responsive-web-design/</loc>
-    <lastmod>2016-07-08</lastmod>
-  </url>
-  <url>
-    <loc>http://iamlos.xyz/blog/</loc>
-    <lastmod>2016-07-08</lastmod>
-  </url>
-  <url>
-    <loc>http://iamlos.xyz/case-studies/1-page-sites/</loc>
-    <lastmod>2016-07-08</lastmod>
-  </url>
-  <url>
-    <loc>http://iamlos.xyz/case-studies/canc3r/</loc>
-    <lastmod>2016-07-08</lastmod>
-  </url>
-  <url>
-    <loc>http://iamlos.xyz/case-studies/integrations/</loc>
-    <lastmod>2016-07-08</lastmod>
-  </url>
-  <url>
-    <loc>http://iamlos.xyz/case-studies/</loc>
-    <lastmod>2016-07-08</lastmod>
-  </url>
-  <url>
-    <loc>http://iamlos.xyz/team/iamlos/</loc>
+    <loc>https://iamlos.xyz/blog/far-from-finished/</loc>
     <lastmod>2016-07-14</lastmod>
   </url>
   <url>
-    <loc>http://iamlos.xyz/start/thanks/</loc>
+    <loc>https://iamlos.xyz/blog/lessons-learned-from-working-remotely/</loc>
+    <lastmod>2016-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlos.xyz/blog/recommended-reading-insites-the-book/</loc>
+    <lastmod>2016-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlos.xyz/blog/setting-goals-for-your-web-project/</loc>
     <lastmod>2016-07-08</lastmod>
   </url>
   <url>
-    <loc>http://iamlos.xyz/start/</loc>
+    <loc>https://iamlos.xyz/blog/streamlining-our-proposal-writing-process/</loc>
+    <lastmod>2016-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlos.xyz/blog/what-does-success-look-like/</loc>
     <lastmod>2016-07-08</lastmod>
   </url>
   <url>
-    <loc>http://iamlos.xyz/newsletter/thanks/</loc>
+    <loc>https://iamlos.xyz/blog/why-choose-responsive-web-design/</loc>
+    <lastmod>2016-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlos.xyz/blog/</loc>
     <lastmod>2016-07-08</lastmod>
   </url>
   <url>
-    <loc>http://iamlos.xyz/newsletter/</loc>
+    <loc>https://iamlos.xyz/case-studies/1-page-sites/</loc>
+    <lastmod>2016-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlos.xyz/case-studies/canc3r/</loc>
+    <lastmod>2016-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlos.xyz/case-studies/integrations/</loc>
     <lastmod>2016-07-08</lastmod>
   </url>
   <url>
-    <loc>http://iamlos.xyz/newsletter/confirm/</loc>
+    <loc>https://iamlos.xyz/case-studies/</loc>
     <lastmod>2016-07-08</lastmod>
   </url>
   <url>
-    <loc>http://iamlos.xyz/new-client/thanks/</loc>
+    <loc>https://iamlos.xyz/team/iamlos/</loc>
+    <lastmod>2016-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlos.xyz/start/thanks/</loc>
     <lastmod>2016-07-08</lastmod>
   </url>
   <url>
-    <loc>http://iamlos.xyz/new-client/</loc>
+    <loc>https://iamlos.xyz/start/</loc>
     <lastmod>2016-07-08</lastmod>
   </url>
   <url>
-    <loc>http://iamlos.xyz/</loc>
+    <loc>https://iamlos.xyz/newsletter/thanks/</loc>
+    <lastmod>2016-07-08</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlos.xyz/newsletter/</loc>
+    <lastmod>2016-07-08</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlos.xyz/newsletter/confirm/</loc>
+    <lastmod>2016-07-08</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlos.xyz/new-client/thanks/</loc>
+    <lastmod>2016-07-08</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlos.xyz/new-client/</loc>
+    <lastmod>2016-07-08</lastmod>
+  </url>
+  <url>
+    <loc>https://iamlos.xyz/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

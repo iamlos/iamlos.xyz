@@ -20,11 +20,11 @@
 			"id": 2,
 			"metadata": {
 				"name": "wpzoom (subset)",
-				"url": "http://www.wpzoom.com/wpzoom/new-freebie-wpzoom-developer-icon-set-154-free-icons/",
-				"designerURL": "http://cargocollective.com/davidferreira",
+				"url": "https://www.wpzoom.com/wpzoom/new-freebie-wpzoom-developer-icon-set-154-free-icons/",
+				"designerURL": "https://cargocollective.com/davidferreira",
 				"designer": "David Ferreira",
 				"license": "CC BY-SA 3.0",
-				"licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/",
+				"licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
 				"iconsHash": -1288728419
 			},
 			"height": 1024,
@@ -65,11 +65,11 @@
 			"id": 1,
 			"metadata": {
 				"name": "Linecons (subset)",
-				"url": "http://designmodo.com/linecons-free/",
+				"url": "https://designmodo.com/linecons-free/",
 				"designer": "Sergey Shmidt",
 				"license": "CC BY-SA 3.0",
-				"licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/us/",
-				"designerURL": "http://shmidt.in/"
+				"licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/us/",
+				"designerURL": "https://shmidt.in/"
 			},
 			"height": 1024,
 			"prevSize": 32,
@@ -5225,11 +5225,11 @@
 			"id": 0,
 			"metadata": {
 				"name": "IcoMoon - Ultimate",
-				"url": "http://icomoon.io/#icons",
+				"url": "https://icomoon.io/#icons",
 				"designer": "Keyamoon",
-				"designerURL": "http://keyamoon.com",
+				"designerURL": "https://keyamoon.com",
 				"license": "Royalty Free",
-				"licenseURL": "http://icomoon.io/#icons#license"
+				"licenseURL": "https://icomoon.io/#icons#license"
 			},
 			"height": 1024,
 			"prevSize": 32,
